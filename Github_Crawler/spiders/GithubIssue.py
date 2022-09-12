@@ -76,8 +76,7 @@ class IssueSpider(scrapy.Spider):
     def add_timeline_item_data(self, discuss_content, timeline):
 
         # get timeline item body data
-        for item in discuss_content.xpath('//div[@class="TimelineItem-body"]'):
-            timeline_item = {}
+        for item in discuss_content.xpath('//*[@class="TimelineItem-body"]'):
 
             # get the user name for issue timeline
             user_name = item.xpath('.//a[@class="author Link--primary text-bold"]/text()').get()
@@ -100,12 +99,21 @@ class IssueSpider(scrapy.Spider):
             # get related issue
             related_issue = item.xpath('.//span[@class="color-fg-muted text-normal"]/text()').get()
 
+            related_issue_link = item.xpath('.//a//@href').getall()
+
+            if related_issue_link is not None:
+                if len(related_issue_link) > 1:
+                    related_issue_link = "https://github.com/" + related_issue_link[3]
+                else:
+                    related_issue_link = None
+
             timeline_item = {
                 "user": user_name,
                 "datetime": datetime,
                 "body": item_body,
                 "type": item_type,
-                "related_issue": related_issue
+                "related_issue": related_issue,
+                "related_issue_link": related_issue_link
             }
 
             if timeline_item["type"] == "":
