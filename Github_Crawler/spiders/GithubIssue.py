@@ -32,28 +32,25 @@ class IssueSpider(scrapy.Spider):
 
         discuss_content = response.xpath('//div[@class="js-quote-selection-container"]')
 
-        timeline = []
-
-        result = {}
-
         for item in discuss_content.xpath('//div[@class="ml-n3 timeline-comment unminimized-comment comment '
                                           'previewable-edit js-task-list-container js-comment timeline-comment--caret"]'):
             # add all comment data from github issue page
-            result_item = self.add_comment_data(item, timeline, scrapy_item)
+            result_item = self.add_comment_data(item, scrapy_item)
 
             yield result_item
             # get timeline item body data
         for item in discuss_content.xpath('//*[@class="TimelineItem-body"]'):
-
             # add all timeline item data from github issue page
-            result_item = self.add_timeline_item_data(item, timeline, scrapy_item)
+            result_item = self.add_timeline_item_data(item, scrapy_item)
             yield result_item
 
-        result['item_list'] = timeline
-
-
-
-    def add_comment_data(self, item, timeline, scrapy_item):
+    def add_comment_data(self, item, scrapy_item):
+        """
+        从timeline中获取一个comment形式的数据
+        :param item: 当前timeline的单个comment对象
+        :param scrapy_item: scrapy定义的item对象, 用于存储数据做处理
+        :return:
+        """
         # get comment body data
 
         # get the user name for issue timeline
@@ -87,12 +84,15 @@ class IssueSpider(scrapy.Spider):
         scrapy_item['related_issue'] = related_issue
         # scrapy_item['related_issue_link'] = related_issue_link
 
-        timeline.append(timeline_item)
-
         return scrapy_item
 
-    def add_timeline_item_data(self, item, timeline, scrapy_item):
-
+    def add_timeline_item_data(self, item, scrapy_item):
+        """
+        从timeline中获取一个普通形式的数据
+        :param item: 当前timeline的单个comment对象
+        :param scrapy_item: scrapy定义的item对象, 用于存储数据做处理
+        :return:
+        """
         # get the user name for issue timeline
         user_name = item.xpath('.//a[@class="author Link--primary text-bold"]/text()').get()
 
@@ -130,8 +130,6 @@ class IssueSpider(scrapy.Spider):
         scrapy_item['type'] = item_type
         scrapy_item['related_issue'] = related_issue
         scrapy_item['related_issue_link'] = related_issue_link
-
-        timeline.append(timeline_item)
 
         return scrapy_item
 
