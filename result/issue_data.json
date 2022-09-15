@@ -1,0 +1,63 @@
+"issue_list": 
+[
+{
+  "user_name": "pooja-botpress",
+  "datetime": "Sep 8, 2021",
+  "body": "When a new Botpress instance is spun up, the first Super Admin Login should always be local",
+  "type": "commented",
+  "related_issue": null
+},
+{
+  "user_name": "laurentlp",
+  "datetime": "Sep 9, 2021",
+  "body": "Hey,  Can you please provide a little more details on what you mean by \"the first Super Admin Login should always be \"?",
+  "type": "commented",
+  "related_issue": null
+},
+{
+  "user_name": "charlescatta",
+  "datetime": "Oct 6, 2021",
+  "body": "What I understand: When an SSO strategy is enabled and the default auth strategy is disabled on first boot, the registration screen to create the super admin does not appear.",
+  "type": "commented",
+  "related_issue": null
+},
+{
+  "user_name": "JustusNBB",
+  "datetime": "Oct 8, 2021",
+  "body": "I would like the ability to disable the user/pass local strategy from the login page while keeping accessibility through APIs (CI User = Superadmin)",
+  "type": "commented",
+  "related_issue": null
+},
+{
+  "user_name": "Michael-N-M",
+  "datetime": "Sep 9, 2021",
+  "body": [],
+  "type": "added",
+  "related_issue": null,
+  "related_issue_link": "https://github.com//botpress/botpress/labels/feature-request"
+},
+{
+  "user_name": "laurentlp",
+  "datetime": "Oct 13, 2021",
+  "body": [],
+  "type": "pull",
+  "related_issue": "#5564",
+  "related_issue_link": "https://github.com//botpress/botpress/pull/5564"
+},
+{
+  "user_name": "laurentlp",
+  "datetime": "Oct 14, 2021",
+  "body": [],
+  "type": "pull",
+  "related_issue": null,
+  "related_issue_link": "https://github.com//botpress/botpress/pull/5564"
+},
+{
+  "user_name": "EFF",
+  "datetime": "Oct 22, 2021",
+  "body": [],
+  "type": "pull",
+  "related_issue": "#5595",
+  "related_issue_link": "https://github.com//botpress/botpress/pull/5595"
+}]
+}
