@@ -12,7 +12,8 @@ BOT_NAME = 'Github_Crawler'
 SPIDER_MODULES = ['Github_Crawler.spiders']
 NEWSPIDER_MODULE = 'Github_Crawler.spiders'
 
-
+LOG_LEVEL = 'WARNING'
+ROBOTSTXT_OBEY = False
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'Github_Crawler (+http://www.yourdomain.com)'
 
@@ -62,9 +63,10 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'Github_Crawler.pipelines.GithubCrawlerPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'Github_Crawler.pipelines.DatetimePipeline': 300,
+    'Github_Crawler.pipelines.JsonWriterPipeline': 1000,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
