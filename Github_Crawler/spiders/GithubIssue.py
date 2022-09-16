@@ -1,5 +1,4 @@
-import json
-
+import csv
 import scrapy
 from Github_Crawler.items import GithubCrawlerItem
 
@@ -20,35 +19,47 @@ def cobine_words(word_list):
     return result
 
 
+def read_source():
+    url_list = []
+    with open("source/Github Projects Data - Issue list.csv", 'r') as file:
+        reader = csv.reader(file)
+        for url in reader:
+            if "https" in url[4]:
+                url_list.append(url[4])
+    return url_list[0:10]
+
+
 class IssueSpider(scrapy.Spider):
     name = 'issue'
-    allowed_domains = ["github.com"]
+    allowed_domains = "https://github.com"
 
     # 放入所有需要爬取的网址
-    start_urls = ['https://github.com/botpress/botpress/issues/5423']
+    start_urls = read_source()
 
     def parse(self, response):
+
         scrapy_item = GithubCrawlerItem()
 
-        discuss_content = response.xpath('//div[@class="js-quote-selection-container"]')
+        issue_list = []
 
+        discuss_content = response.xpath('//div[@class="js-quote-selection-container"]')
         for item in discuss_content.xpath('//div[@class="ml-n3 timeline-comment unminimized-comment comment '
                                           'previewable-edit js-task-list-container js-comment timeline-comment--caret"]'):
             # add all comment data from github issue page
-            result_item = self.add_comment_data(item, scrapy_item)
+            issue_list.append(self.add_comment_data(item))
 
-            yield result_item
-            # get timeline item body data
+        # get timeline item body data
         for item in discuss_content.xpath('//*[@class="TimelineItem-body"]'):
             # add all timeline item data from github issue page
-            result_item = self.add_timeline_item_data(item, scrapy_item)
-            yield result_item
+            issue_list.append(self.add_timeline_item_data(item))
 
-    def add_comment_data(self, item, scrapy_item):
+        scrapy_item['issue_list'] = issue_list
+        return scrapy_item
+
+    def add_comment_data(self, item):
         """
         从timeline中获取一个comment形式的数据
         :param item: 当前timeline的单个comment对象
-        :param scrapy_item: scrapy定义的item对象, 用于存储数据做处理
         :return:
         """
         # get comment body data
@@ -69,24 +80,24 @@ class IssueSpider(scrapy.Spider):
         # get related issue
         related_issue = item.xpath('.//span[@class="color-fg-muted text-normal"]/text()').get()
 
-        timeline_item = {
-            "user": user_name,
-            "datetime": datetime,
-            "body": comment,
-            "type": item_type,
-            "related_issue": related_issue
+        timeline_data = {
+            'user_name': user_name,
+            'datetime': datetime,
+            'body': comment,
+            'type': item_type,
+            'related_issue': related_issue
         }
 
-        scrapy_item['user_name'] = user_name
-        scrapy_item['datetime'] = datetime
-        scrapy_item['body'] = comment
-        scrapy_item['type'] = item_type
-        scrapy_item['related_issue'] = related_issue
+        # scrapy_item['user_name'] = user_name
+        # scrapy_item['datetime'] = datetime
+        # scrapy_item['body'] = comment
+        # scrapy_item['type'] = item_type
+        # scrapy_item['related_issue'] = related_issue
         # scrapy_item['related_issue_link'] = related_issue_link
 
-        return scrapy_item
+        return timeline_data
 
-    def add_timeline_item_data(self, item, scrapy_item):
+    def add_timeline_item_data(self, item):
         """
         从timeline中获取一个普通形式的数据
         :param item: 当前timeline的单个comment对象
@@ -112,30 +123,26 @@ class IssueSpider(scrapy.Spider):
 
         item_type, related_issue_link = self.parse_link_type(item_type, related_issue_link)
 
-        timeline_item = {
-            "user": user_name,
-            "datetime": datetime,
-            "body": item_body,
-            "type": item_type,
-            "related_issue": related_issue,
-            "related_issue_link": related_issue_link
+        # scrapy_item['user_name'] = user_name
+        # scrapy_item['datetime'] = datetime
+        # scrapy_item['body'] = item_body
+        # scrapy_item['type'] = item_type
+        # scrapy_item['related_issue'] = related_issue
+        # scrapy_item['related_issue_link'] = related_issue_link
+
+        timeline_data = {
+            'user_name': user_name,
+            'datetime': datetime,
+            'body': item_body,
+            'type': item_type,
+            'related_issue': related_issue
         }
 
-        if timeline_item["type"] == "":
-            timeline_item["type"] = "mention"
-
-        scrapy_item['user_name'] = user_name
-        scrapy_item['datetime'] = datetime
-        scrapy_item['body'] = item_body
-        scrapy_item['type'] = item_type
-        scrapy_item['related_issue'] = related_issue
-        scrapy_item['related_issue_link'] = related_issue_link
-
-        return scrapy_item
+        return timeline_data
 
     def parse_link_type(self, item_type, related_issue_link):
         if related_issue_link is not None:
-            if len(related_issue_link) > 1:
+            if len(related_issue_link) > 3:
                 related_issue_link = "https://github.com/" + related_issue_link[3]
                 if "pull" in related_issue_link:
                     item_type = "pull"
@@ -144,3 +151,7 @@ class IssueSpider(scrapy.Spider):
             else:
                 related_issue_link = None
         return item_type, related_issue_link
+
+
+if __name__ == '__main__':
+    read_source()

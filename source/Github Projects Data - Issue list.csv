@@ -1,0 +1,1129 @@
+,"botpress
+Link: https://github.com/botpress/botpress",,,
+,Name,Type,status,url
+,[FEATURE] First Super Admin Login should always be local,Issue,Closed,https://github.com/botpress/botpress/issues/5423
+,Chatbot usage for blind users,Issue,Closed,https://github.com/botpress/botpress/issues/2980
+,Audio speaking capabilities for HITL - text message as Accessibility feature,Issue,Closed,https://github.com/botpress/botpress/issues/2170
+,[BUG] NLU | Intents: If the utterances exceeded 100,Issue,Closed,https://github.com/botpress/botpress/issues/11446
+,[FEATURE] make webchat avatar responsive,Issue,Open,https://github.com/botpress/botpress/issues/4504
+,[BUG] replacing an image content does not delete the old one,Issue,Open,https://github.com/botpress/botpress/issues/4326
+,Was testing the studio environment and some kind of visual error appeared,Issue,Closed,https://github.com/botpress/botpress/issues/5763
+,Whitelabeling - Page title and favicon,Issue,Closed,https://github.com/botpress/botpress/issues/3320
+,ui-studio: image content element doesn't render image,Issue,Closed,https://github.com/botpress/botpress/issues/3265
+,Q&A - Can't scroll down,Issue,Closed,https://github.com/botpress/botpress/issues/11429
+,[BUG] Card/Carousel showing up empty on bigger resolutions,Issue,Closed,https://github.com/botpress/botpress/issues/5533
+,[BUG] HITL Next - Sometimes the transcript goes blank,Issue,Closed,https://github.com/botpress/botpress/issues/5253
+,[BUG] Broken icons in the studio,Issue,Closed,https://github.com/botpress/botpress/issues/5060
+,"[BUG]: HITL Not Rendering Choice, Dropdown and Custom Components",Issue,Closed,https://github.com/botpress/botpress/issues/5051
+,[BUG] Conversation Only Displaying After Refresh (Windows Server),Issue,Closed,https://github.com/botpress/botpress/issues/4567
+,,,,
+,,,,
+,,,,
+,"photonix
+Link: https://github.com/photonixapp/photonix",,,
+,Name,Type,status,url
+,AI tags in wrong location with metadata rotated images.,Issue,Open,https://github.com/photonixapp/photonix/issues/387
+,Photonix on Unraid - Blank login screen after initial setup.,Issue,Open,https://github.com/photonixapp/photonix/issues/372
+,Private images appear on the map,Issue,Open,https://github.com/photonixapp/photonix/issues/367
+,GUI showing wrong thumbnails to original photos,Issue,Open,https://github.com/photonixapp/photonix/issues/360
+,"Can't seem to edit/remove mis-identifed objects, events etc.",Issue,Open,https://github.com/photonixapp/photonix/issues/346
+,"Use large ""thumbnailed"" images for classification instead of originals",Issue,Open,https://github.com/photonixapp/photonix/issues/336
+,Random image gallery,Issue,Open,https://github.com/photonixapp/photonix/issues/319
+,Face label only the size of the face bounding box,Issue,Open,https://github.com/photonixapp/photonix/issues/296
+,Mobile app server address field obscured by keyboard on small phones,Issue,Open,https://github.com/photonixapp/photonix/issues/230
+,Image scaling/thumbnailing service improvements,Issue,Open,https://github.com/photonixapp/photonix/issues/209
+,Display and navigate 360 photos,Issue,Open,https://github.com/photonixapp/photonix/issues/37
+,Justified layout of photos without square cropping,Issue,Open,https://github.com/photonixapp/photonix/issues/10
+,Setting custom names for cameras & lenses,Issue,Open,https://github.com/photonixapp/photonix/issues/49
+,,,,
+,,,,
+,,,,
+,"rasa
+Link: https://github.com/RasaHQ/rasa",,,
+,Name,Type,status,url
+,Website UI bug on mobile web version,Issue,Open,https://github.com/RasaHQ/rasa/issues/10474
+,empty conversation in rasa-x >= 1.0.0 when 'action_restart' is executed,Issue,Open,https://github.com/RasaHQ/rasa/issues/10820
+,improve accessibility in docs,Issue,Closed,https://github.com/RasaHQ/rasa/issues/6765
+,Utter and action sequence not respected,Issue,Open,https://github.com/RasaHQ/rasa/issues/11414
+,Slack Documentation/API seems out of date,Issue,Closed,https://github.com/RasaHQ/rasa/issues/10823
+,Interactive error,Issue,Open,https://github.com/RasaHQ/rasa/issues/10803
+,Changelog documentation indentation issue,Issue,Closed,https://github.com/RasaHQ/rasa/issues/10399
+,Predicted intent is always 'greet' for every message that doesn't exists in the training data,Issue,Closed,https://github.com/RasaHQ/rasa/issues/10102
+,Change tag color in Rasa X,Issue,Closed,https://github.com/RasaHQ/rasa/issues/6771
+,No response in slack when custom action runs for longer than 3 seconds,Issue,Closed,https://github.com/RasaHQ/rasa/issues/6568
+,The web page for documentation have some weird CSS style,Issue,Closed,https://github.com/RasaHQ/rasa/issues/6156
+,,,,
+,,,,
+,,,,
+,"carla
+Link: https://github.com/carla-simulator/carla",,,
+,Name,Type,status,url
+,"After importing the new map with Roadrunner, run generate_ Traffic.py pedestrians are not generated",Issue,Open,https://github.com/carla-simulator/carla/issues/5643
+,Fisheye Segmentation looks weird in carla,Issue,Open,https://github.com/carla-simulator/carla/issues/5678
+,Custom vehicle being continuously and infinitely spawned,Issue,Open,https://github.com/carla-simulator/carla/issues/5674
+,"After importing the new map with Roadrunner, run generate_ Traffic.py pedestrians are not generated",Issue,Open,https://github.com/carla-simulator/carla/issues/5643
+,Spawn collision free objects?,Issue,Open,https://github.com/carla-simulator/carla/issues/5627
+,roadrunner map singal overlapping,Issue,Open,https://github.com/carla-simulator/carla/issues/5584
+,Waypointing issues with Town03 roundabout,Issue,Open,https://github.com/carla-simulator/carla/issues/5579
+,Import map no texture,Issue,Open,https://github.com/carla-simulator/carla/issues/5574
+,Some invisible lines in CARLA,Issue,Open,https://github.com/carla-simulator/carla/issues/5561
+,Unrealistic weather rendering,Issue,Open,https://github.com/carla-simulator/carla/issues/5303
+,"rgb images: lot of noise in dark regions, grain jitter, scratch-marks, aliasing",Issue,Open,https://github.com/carla-simulator/carla/issues/5455
+,,,,
+,,,,
+,,,,
+,"alan-sdk-web
+Link: https://github.com/alan-ai/alan-sdk-web",,,
+,Name,Type,status,url
+,Onclick show and hide alan btn,Issue,Open,https://github.com/alan-ai/alan-sdk-web/issues/49
+,microphone is not allowed in this document,Issue,Closed,https://github.com/alan-ai/alan-sdk-web/issues/55
+,Preview Logo Image Link ,Issue,Closed,https://github.com/alan-ai/alan-sdk-web/issues/48
+,I do not need the text panel with words. Can I remove it (and how) to leave only the button?,Issue,Closed,https://github.com/alan-ai/alan-sdk-web/issues/33
+,Alan Button Not Visible,Issue,Closed,https://github.com/alan-ai/alan-sdk-web/issues/30
+,Option to fix the position of alan button on web page,Issue,Closed,https://github.com/alan-ai/alan-sdk-web/issues/18
+,Navigator error ,Issue,Closed,https://github.com/alan-ai/alan-sdk-web/issues/29
+,,,,
+,,,,
+,"lightning
+Link: https://github.com/Lightning-AI/lightning
+",,,
+,Name,Type,status,url
+,lightning.ai UI empty on ipad,Issue,Open,https://github.com/Lightning-AI/lightning/issues/13915
+,Blocking iframe fail to render within lightning UI tabs,Issue,Open,https://github.com/Lightning-AI/lightning/issues/13520
+,No tabs when a Lightning App only contains one Web UI ,Issue,Open,https://github.com/Lightning-AI/lightning/issues/13511
+,Add support for embedding a Grid of iframes on the UI,Issue,Open,https://github.com/Lightning-AI/lightning/issues/13496
+,Add Panel Frontend.,Issue,Open,https://github.com/Lightning-AI/lightning/issues/13335
+,Support dynamic dark theme,Issue,Open,https://github.com/Lightning-AI/lightning/issues/13507
+,Cannot start lightning app at cloud on macOS,Issue,Closed,https://github.com/Lightning-AI/lightning/issues/13942
+,storing artifacts in Lighting App Drive do not show up in Admin UI Storage Tab,Issue,Closed,https://github.com/Lightning-AI/lightning/issues/13772
+,add UI for install all,Merged,Closed,https://github.com/Lightning-AI/lightning/pull/13732
+,,,,
+,,,,
+,,,,
+,"fireFox-voice  
+Link: https://github.com/mozilla-extensions/firefox-voice
+",,,
+,Name,Type,status,url
+,Routine matching is broken and too aggressive,issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1908
+,I just wanted to say that it makes me sad that it's dead,issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1913
+,"Operate offline and locally without ""cloud""",issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1898
+,Create and use list of preferred voices,issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1907
+,Play a voice sample when changing voice preference,issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1893
+,Onboarding screens should be displayed after install,issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1900
+,"Header - ""Install Now"" button doesn't do anything",issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1897
+,Header - Incorrect hrefs for Privacy Policy and Lexicon links,issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1896
+,Add survey link,issue-voice,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/1878
+,The default keyboard shortcut (Ctrl + .) conflicts with Firefox Containers,issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1876
+,Personally configured cards,issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1828
+,Firefox Voice Github pages down,issue-voice,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/1867
+,Put in badge/page open for new features,issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1869
+,Integrate with MyCroft skills,issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1843
+,Mention current English-only language support on the homepage,issue-voice,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/1835
+,"Issue with chime, timer alarm, some pages; 404 not found",issue-voice,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/1839
+,"""This is a test"" checkmark needs new image",issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1808
+,The error when no speech is made should include the microphone name,issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1826
+,Integrate honkling wakeword,issue-voice,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/1817
+,"Default audio output, add controls to popup",issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1819
+,"Uses Google, not my specified search engine",issue-voice,Open,https://github.com/mozilla-extensions/firefox-voice/issues/1822
+,Whited-out text box and settings page: Firefox-80 (and earlier); Linux; Voice:0.21.7198,issue-voice,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/1792
+,Use free text search in tabs.js:getMatchingTabs(),issue-voice,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/1789
+,"Add voice command ""Open NAME extension""",issue-mouse,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/976
+,"""Submit"" negative feedback button not responsive on hover state",issue-mouse,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/704
+,Feedback emoticons don't change color or size on mouse hover,issue-mouse,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/1327
+,Enable Google sidebar cards,issue-mouse,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/514
+,"Doorhanger display issue when doing a ""Search"" command",issue-mouse,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/1505
+,"""Copy image"" command not copying pictures in Google Docs or other related tabs",issue-mouse,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/689
+,"Changes needed for the ""Routines"" page",issue-mouse,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/1329
+,"""Settings"" button and ""Feedback?"" link not working when ""Doorhanger"" is opened",issue-mouse,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/678
+,"Firefox Voice ""gear icon"" moves to three different positions, making it hard to click",issue-mouse,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/486
+,"Review ""Guidelines for Human-AI Interaction""",issue-camera,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/213
+,Try hiding the recorder tab,issue-camera,Closed,https://github.com/mozilla-extensions/firefox-voice/issues/503
+,,,,
+,,,,
+,,,,
+,"webcam-capture          
+Link: https://github.com/sarxos/webcam-capture
+",,,
+,Name,Type,status,url
+,How to take image from rtsp?,issue-accessibility,Open,https://github.com/sarxos/webcam-capture/issues/632
+,Webcam shows 'device error' when opening after closing once.,issue-mouse,Open,https://github.com/sarxos/webcam-capture/issues/704
+,Unable to download JAR file,issue-mouse,Closed,https://github.com/sarxos/webcam-capture/issues/425
+,Method getImage() return images referencing the same raster bytes,issue-mouse,Closed,https://github.com/sarxos/webcam-capture/issues/182
+,WebcamPanel with ptz support,issue-mouse,Closed,https://github.com/sarxos/webcam-capture/issues/172
+,[Question] access DroidCam,issue-mouse,Open,https://github.com/sarxos/webcam-capture/issues/601
+,My attempts to transmit images camera surveillance at internet availables,issue-voice,Closed,https://github.com/sarxos/webcam-capture/issues/320
+,Problem with WebcamStreamer start / stop and changing the assigned camera,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/839
+,Camera isn't max size,issue-camera,Open,https://github.com/sarxos/webcam-capture/issues/847
+,Library OpenIMAJGrabber was not loaded successfully from the file,issue-camera,Open,https://github.com/sarxos/webcam-capture/issues/852
+,Does not Work on RaspberryPi 4B+. Driver problem or not?,issue-camera,Open,https://github.com/sarxos/webcam-capture/issues/858
+,the webcam doesnt work for me,issue-camera,Open,https://github.com/sarxos/webcam-capture/issues/853
+,Webcam not streaming second time,issue-camera,Open,https://github.com/sarxos/webcam-capture/issues/859
+,"Error ""We shouldn't be here...""",issue-camera,Open,https://github.com/sarxos/webcam-capture/issues/854
+,"not getting access to Camera in Mac-Latest versions using Webcam.getWebcams(), or Webcam.getDefaultCam()",issue-camera,Open,https://github.com/sarxos/webcam-capture/issues/851
+,How to properly kill a thread,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/833
+,Ubuntu: Not able to detect camera,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/832
+,No Webcam detected on Ubuntu,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/837
+,Webcam not working while on Zoom,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/834
+,Connection to IP Cam with Onvif standard with password protection unsuccessful,issue-camera,Open,https://github.com/sarxos/webcam-capture/issues/838
+,"Exception in thread ""main"" java.lang.NoClassDefFoundError",issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/828
+,How to get a specific USB camera?,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/830
+,Capture black screen,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/829
+,SIGSEGV when running Webcam Capture API on ARM64.,issue-camera,Open,https://github.com/sarxos/webcam-capture/issues/813
+,I'm having issues with some libs,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/821
+,which driver UVC camera can use MJPG,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/807
+,how to select video input channel when used in video card with more than one input .,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/801
+,Could Not Initialize OpenIMAJGrabber,issue-camera,Open,https://github.com/sarxos/webcam-capture/issues/799
+,Not an Issue: Need Information,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/827
+,can't get more camer device,issue-camera,Closed,https://github.com/sarxos/webcam-capture/issues/818
+zihang,Failed to allocate new instance of type class com.github.sarxos.webcam.ds.buildin.natives.OpenIMAJGrabber,issue-camera,Open,https://github.com/sarxos/webcam-capture/issues/798
+,,,,
+,,,,
+,,,,
+,"susi.ai              
+Link: https://github.com/fossasia/susi.ai
+",,,
+,Name,Type,status,url
+,Accessibility Issues,issue-accessibility,Closed,https://github.com/fossasia/susi.ai/issues/1763
+,Improve Lighthouse score,issue-accessibility,Closed,https://github.com/fossasia/susi.ai/issues/1632
+,The video player is missing various features,issue-voice,Closed,https://github.com/fossasia/susi.ai/issues/3278
+,Device Page: Add configuration options / settings,issue-voice,Closed,https://github.com/fossasia/susi.ai/issues/2488
+,Change and add more slides to front page,issue-voice,Closed,https://github.com/fossasia/susi.ai/issues/2510
+,Fix Microphone toggle in Settings,issue-voice,Closed,https://github.com/fossasia/susi.ai/issues/1880
+,Speech Output bug,issue-voice,Closed,https://github.com/fossasia/susi.ai/issues/2849
+,The voice used by SUSI is not the same as Google's voice,issue-voice,Closed,https://github.com/fossasia/susi.ai/issues/1238
+,The error message of the audio input pops up before the speak now dialog box is shown,issue-voice,Closed,https://github.com/fossasia/susi.ai/issues/1163
+,"Options to stop a skill, reduce the volume of playing music",issue-voice,Closed,https://github.com/fossasia/susi.ai/issues/2614
+,Chromium: Text to speech not working,issue-voice,Closed,https://github.com/fossasia/susi.ai/issues/795
+,Make map zoomable only after clicking,issue-mouse,Closed,https://github.com/fossasia/susi.ai/issues/856
+,"Enhancement of settings dropdown - Select default language, TimeZone, Country",issue-mouse,Closed,https://github.com/fossasia/susi.ai/issues/1317
+,Show settings for Skill Editor,issue-keyboard,Closed,https://github.com/fossasia/susi.ai/issues/2189
+,Words suggestion for input field,issue-keyboard,Closed,https://github.com/fossasia/susi.ai/issues/1973
+,The send button needs functionality.,issue-keyboard,Closed,https://github.com/fossasia/susi.ai/issues/17
+,Header not fixed while typing on phones.,issue-keyboard,Closed,https://github.com/fossasia/susi.ai/issues/360
+,"Enhancement of settings dropdown - Select default language, TimeZone, Country",issue-keyboard,Closed,https://github.com/fossasia/susi.ai/issues/1317
+,Setting for Mic Input,issue-keyboard,Closed,https://github.com/fossasia/susi.ai/issues/426
+,Add setting for speech output always on,issue-keyboard,Closed,https://github.com/fossasia/susi.ai/issues/434
+,Redirect to Browse skills search on search enter,issue-keyboard,Closed,https://github.com/fossasia/susi.ai/issues/2532
+,Using the Telegram chat services into Susi,issue-keyboard,Closed,https://github.com/fossasia/susi.ai/issues/9
+,,,,
+,,,,
+,,,,
+,"semantic segmentation          
+Link: https://github.com/openvinotoolkit/cvat
+",,,
+,Name,Type,status,url
+,UI becomes super slow with > 1k annotations,"bug, enhancement, performance",open,https://github.com/opencv/cvat/issues/3875
+,With big amount of projects/tasks Projects page get slow to open and makes too much api and db requests,"bug, performance",open,https://github.com/opencv/cvat/issues/3128
+,project details page fetches all project tasks ( poor performance with 600+tasks),"bug, performance",closed,https://github.com/opencv/cvat/issues/3843
+,,,,
+,,,,
+,,,,
+,"dmlc/gluon-cv              
+Link:  https://github.com/dmlc/gluon-cv
+",,,
+,Name,Type,status,url
+,Separate schedulers and searchers as a two separate inputs in ImageClassification task,enhancement,open,https://github.com/dmlc/gluon-cv/issues/1633
+,"FeatureExtractor, FPNFeatureExpander cannot support float16",enhancement,open,https://github.com/dmlc/gluon-cv/issues/1122
+,Pretrained models on Google Open Images,enhancement,open,https://github.com/dmlc/gluon-cv/issues/11019
+,,,,
+,,,,
+,"voxel51/fiftyone          
+Link:  https://github.com/voxel51/fiftyone 
+",,,
+,Name,Type,status,url
+,[BUG] Hangs and incomplete views ,bug,open,https://github.com/voxel51/fiftyone/issues/2005
+,"[FR] Add ""active search"" indicator to Map UI",enhancement,open,https://github.com/voxel51/fiftyone/issues/1995
+,[FR] Document how to install FiftyOne on Ubuntu 22.04 ,"enhancement, 
+documentation",open,https://github.com/voxel51/fiftyone/issues/1988
+,[BUG] Google Collab Scrolling and Fullscreen Issues,bug,open,https://github.com/voxel51/fiftyone/issues/1948
+,[FR] increase brightness,enhancement,open,https://github.com/voxel51/fiftyone/issues/1561
+,[BUG] Have some problems with Windows but works fine with Ubuntu,bug,open,https://github.com/voxel51/fiftyone/issues/1539
+,No scroll bars in recipe/tutorial cards,enhancement,open,https://github.com/voxel51/fiftyone/issues/350
+,[FR] Provide a more discoverable way to toggle between image grid view and expanded sample view,enhancement,open,https://github.com/voxel51/fiftyone/issues/472
+,,,,
+,,,,
+,"facebookresearch/ParIAI         
+Link:  https://github.com/facebookresearch/ParlAI
+",,,
+,Name,Type,status,url
+,creating regression tests for multi-task usecases,enhancement,open,https://github.com/facebookresearch/ParlAI/issues/4579
+,self-chaa improvements,enhancement,open,https://github.com/facebookresearch/ParlAI/issues/2221
+,huggingFace Transformers interop,enhancement,open,https://github.com/facebookresearch/ParlAI/issues/2215
+,Support tied positional weights in transformers,enhancement,open,https://github.com/facebookresearch/ParlAI/issues/2184
+,support for pytorch quantization,enhancement,closed,https://github.com/facebookresearch/ParlAI/issues/2222
+,type checking,enhancement,closed,https://github.com/facebookresearch/ParlAI/issues/2163
+,TorchAgent could improve usability,"enhancement, agents",closed,https://github.com/facebookresearch/ParlAI/issues/904
+,,,,
+,,,,
+,,,,
+,"NaomiProject/Naomi        
+Link:  https://github.com/NaomiProject/Naomi
+",,,
+,Name,Type,status,url
+,Naomi does not listen while thinking,enhancement,open,https://github.com/NaomiProject/Naomi/issues/340
+,Steps involved to add a new language?,enhancement,open,https://github.com/NaomiProject/Naomi/issues/265
+,,,,
+,,,,
+,,,,
+,"susi_server       
+Link:  https://github.com/fossasia/susi_server
+",,,
+,Name,Type,status,url
+,Parallellize build,issue-accessibility,Closed,https://github.com/fossasia/susi_server/issues/632
+,mic button is not working...,issue-voice,Closed,https://github.com/fossasia/susi_server/issues/707
+,,,,
+,,,,
+,,,,
+,,,,
+,"ItChat
+Link: https://github.com/littlecodersh/ItChat
+",,,
+,Name,Type,status,url
+,机器人能否发送分享的链接？,issue-voice,Closed,https://github.com/littlecodersh/ItChat/issues/547
+,Voice 和 Recording的区别是什么？是否msgtype34是语音？,issue-voice,Closed,https://github.com/littlecodersh/ItChat/issues/408
+,想问下 SnsFlag 是什么,issue-voice,Closed,https://github.com/littlecodersh/ItChat/issues/430
+,,,,
+,,,,
+,"heartexlabs/labelImg
+Link: https://github.com/heartexlabs/labelImg
+",,,
+,Name,Type,status,url
+,Black shading covers the image,Issue,Open,https://github.com/heartexlabs/labelImg/issues/907
+,labeling in a different language (Arabic),Issue,Open,https://github.com/heartexlabs/labelImg/issues/904
+,Error saving annotations on Windows.,Issue,Open,https://github.com/heartexlabs/labelImg/issues/883
+,快捷键 d 不管用,Issue,Open,https://github.com/heartexlabs/labelImg/issues/877
+,为什么标注图片后点击保存再点击下一张出现you have unsaved changes,Issue,Open,https://github.com/heartexlabs/labelImg/issues/876
+,Very dark images,Issue,Open,https://github.com/heartexlabs/labelImg/issues/828
+,Unable to draw annotations on Windows,Issue,Open,https://github.com/heartexlabs/labelImg/issues/811
+,"the keyboard shortcut ""ctrl + d"" does not work",Issue,Open,https://github.com/heartexlabs/labelImg/issues/646
+,Shortcut key C not working,Issue,Open,https://github.com/heartexlabs/labelImg/issues/581
+,Dragging by mouse?,Issue,Open,https://github.com/heartexlabs/labelImg/issues/194
+,Add buttons to brighten and darken images,Issue,Closed,https://github.com/heartexlabs/labelImg/issues/860
+,how can i change the toolbutton icon?,Issue,Closed,https://github.com/heartexlabs/labelImg/issues/303
+,Cannot install on macOS High Sierra if I use qt4 and make qt4py2,Issue,Closed,https://github.com/heartexlabs/labelImg/issues/211
+,Verify Image button has no icon,Issue,Closed,https://github.com/heartexlabs/labelImg/issues/187
+,Different colors for labels,Issue,Closed,https://github.com/heartexlabs/labelImg/issues/177
+,,,,
+,,,,
+,,,,
+,,,,
+,"hey-athena-client
+Link: https://github.com/rcbyron/hey-athena-client
+",,,
+,Name,Type,status,url
+,Start recording before the beep,Issue,Open,https://github.com/rcbyron/hey-athena-client/issues/12
+,Set maximum active listening time,Issue,Open,https://github.com/rcbyron/hey-athena-client/issues/13
+,Lower master volume after wake-up-word triggered,Issue,Open,https://github.com/rcbyron/hey-athena-client/issues/10
+,unable to give voice input,Issue,Closed,https://github.com/rcbyron/hey-athena-client/issues/49
+,Wake Up Word,Issue,Closed,https://github.com/rcbyron/hey-athena-client/issues/51
+,Athena is triggered by background noises,Issue,Closed,https://github.com/rcbyron/hey-athena-client/issues/55
+,"Saying ""Athena"" triggers this error.",Issue,Closed,https://github.com/rcbyron/hey-athena-client/issues/54
+,,,,
+,,,,
+,Not categoty yet,,,
+,Name,Type,status,url
+,"Is this able to classify actions like sitting, standing, and lying down?",issue-camera,closed,https://github.com/smellslikeml/ActionAI/issues/50
+,How to improve FPS?,issue-camera,closed,https://github.com/smellslikeml/ActionAI/issues/33
+,Airflow will crash python when call urllib.request.urlopen(),issue-camera,closed,https://github.com/apache/airflow/issues/16076
+,Is ROPES dataset available ?,issue-camera,closed,https://github.com/allenai/allennlp/issues/3257
+,SRL demo giving non arguments in square brackets,issue-camera,closed,https://github.com/allenai/allennlp/issues/3166
+,Wikitables Java serve process not getting killed,issue-camera,closed,https://github.com/allenai/allennlp/issues/2667
+,Using Airsim stereo camera image with stereo_image_proc (ros),issue-camera,closed,https://github.com/microsoft/AirSim/issues/4634
+,AirSim RVIZ Connection Errors,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4617
+,Problems using ExternalPhysicsEngine parameter in settings.json PX4+Airsim+Unreal+QGroundControl,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4588
+,client.simAddDetectionFilterMeshName function has bugs in detecting meshes,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4571
+,[Ros1] airsim_ros_wrapper outputs wrong time sync for odom_local_ned and stereo camera,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4569
+,FOV from settings.json not applied,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4557
+,simLoadLevel (C++ API) doesn't destroy assets before loading new Level,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4542
+,water foam and wave effects of the sea do not apply when in airsim mode,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4517
+,AirSim C++ API hasn't the same number of arguments between Rpc client and server calls,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4484
+,camera_tf is ambiguous when diffrent vehicles have same camera names in ROS2,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4475
+,CameraDefaults->CaptureSettings cannot be applied to new cameras,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4469
+,The camera_optical_tf is wrong in ENU coordinate system in ROS2,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4453
+,ROS wrapper GPU memory leak,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4447
+,"AirSim tutorial error: 'simGetImage' bad cast, WSAECONNREFUSED",issue-camera,closed,https://github.com/microsoft/AirSim/issues/4440
+,RPCError when calling simGetImages with several instances of ImageRequest,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4375
+,client.simgetdetections cannot detect object sometimes.,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4367
+,How to disable manual keyboard controls for car,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4348
+,Get precise detection of objects in global NED frame,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4318
+,camera distortion,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4275
+,Attempting to get the camera information for an external camera crashes Unreal.,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4271
+,Object detection API gives incorrect detections,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4263
+Yuzhuo,How to change the baseline of stereo cameras when requesting DisparityNomalized images in ComputerVision mode?,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4252
+,SimPause() not pausing physics,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4174
+,Causes the simulator to crash,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4154
+,Receiving compressed image when settings are on uncompressed,issue-camera,closed,https://github.com/microsoft/AirSim/issues/4142
+,Show AimyboxFragment on recognition starting,issue-camera,closed,https://github.com/just-ai/aimybox-android-assistant/issues/42
+,Annyang is simply not working,issue-camera,closed,https://github.com/TalAter/annyang/issues/267
+,Using https:// but microphone permission doesn't even appear,issue-camera,closed,https://github.com/TalAter/annyang/issues/185
+,Userscript - microphone keeps popping up. Also a way to recognize speech faster?,issue-camera,closed,https://github.com/TalAter/annyang/issues/167
+,Unreal Engine crashes when trying to spawn camera sensor,issue-camera,closed,https://github.com/carla-simulator/carla/issues/5572
+,lidar coordinate to world coordinate transformation error,issue-camera,closed,https://github.com/carla-simulator/carla/issues/5453
+,Want to know how to measure distance of detected objects using camera and radar sensor in CARLA,issue-camera,closed,https://github.com/carla-simulator/carla/issues/5395
+,Navigating ego vehicle through custom waypoints,issue-camera,closed,https://github.com/carla-simulator/carla/issues/5365
+,Bounding boxes for parked vehicles,issue-camera,closed,https://github.com/carla-simulator/carla/issues/5330
+,generate KITTI format dataset,issue-camera,closed,https://github.com/carla-simulator/carla/issues/5292
+,Retrieving image data as float values,issue-camera,closed,https://github.com/carla-simulator/carla/issues/5070
+,Upload Carla map To APollo Dreamview,issue-camera,closed,https://github.com/carla-simulator/carla/issues/5069
+,Is it possible to subdivide the vehicle and pedestrian classes?,issue-camera,closed,https://github.com/carla-simulator/carla/issues/5003
+,tutorial.py error,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4953
+,RGB Sensor stream to DNN,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4949
+,Camera Instance Segmentation - unclear documentation - data format,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4914
+,"Tutorial.py crashes due to client = carla.Client('localhost', 2000) not working in Carla 0.9.12 and 0.9.11",issue-camera,closed,https://github.com/carla-simulator/carla/issues/4877
+,Extracting Bound box data of vehicles form 4 different camera angles.,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4836
+,how to find the camera location in world coordinates??,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4833
+,Over 2x Drop in Rendering Performance in 0.9.12,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4826
+,Collisions with invisible vehicles,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4779
+,Add VRCamera to Carla and attach to pedestrian,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4778
+,This is my code can anyone help me out with reverse:-,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4777
+,RuntimeError: internal error: unable to find spectator (world.get_spectator()),issue-camera,closed,https://github.com/carla-simulator/carla/issues/4776
+,Personal robot with open-source software,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4770
+,"Fuzzy image retrieve from ""camera.rgb"" when replaying.",issue-camera,closed,https://github.com/carla-simulator/carla/issues/4764
+,Distorted and Transparent Objects,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4761
+,Delay on RGB camera data in v0.9.10,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4757
+,Force loading of assets near RGB camera sensor,issue-camera,closed,https://github.com/carla-simulator/carla/issues/4682
+,Quantized pose estimation/object detection models,issue-camera,closed,https://github.com/dmlc/gluon-cv/issues/1712
+,Semantic Segmentation FCN Training,issue-camera,closed,https://github.com/dmlc/gluon-cv/issues/1293
+,Add depth perception models and tutorials,issue-camera,closed,https://github.com/dmlc/gluon-cv/issues/1239
+,"Issue with ""pose estimation"" using GPU",issue-camera,closed,https://github.com/dmlc/gluon-cv/issues/1038
+,AssertionError: Invalid input format when train faster rcnn,issue-camera,closed,https://github.com/dmlc/gluon-cv/issues/589
+,"when i test on MAC , suffer this problem, so what can i do for it? please",issue-camera,closed,https://github.com/huihut/Facemoji/issues/8
+,wav2vec model VALID_WER cannot go down after reaching 100 when fine-tuneing with own dataset,issue-camera,closed,https://github.com/facebookresearch/fairseq/issues/2570
+,Organize unsupported fields in a separate section in the App sidebar,issue-camera,closed,https://github.com/voxel51/fiftyone/issues/261
+,Try hiding the recorder tab,issue-camera,closed,https://github.com/mozilla-extensions/firefox-voice/issues/503
+,"Review ""Guidelines for Human-AI Interaction""",issue-camera,closed,https://github.com/mozilla-extensions/firefox-voice/issues/213
+,Is it possible to rotate the polygon after copy and paste?,issue-camera,closed,https://github.com/opencv/cvat/issues/4298
+,track a pre-annotated objects,issue-camera,closed,https://github.com/opencv/cvat/issues/3958
+,"Support for rosbag files, created by Intel Realsense Viewer",issue-camera,closed,https://github.com/opencv/cvat/issues/3396
+,Working with 3D Data,issue-camera,closed,https://github.com/opencv/cvat/issues/3315
+,Video does not rotate despite metadata,issue-camera,closed,https://github.com/opencv/cvat/issues/2187
+,Tracking functionality for bounding boxes,issue-camera,closed,https://github.com/opencv/cvat/issues/211
+,Expose an API to manage tasks,issue-camera,closed,https://github.com/opencv/cvat/issues/187
+,taking photo using pc camera,issue-camera,closed,https://github.com/PCCoE-Hacktoberfest-21/FRIDAY/issues/85
+,internet server inference error installing bart,issue-camera,closed,https://github.com/facebookresearch/ParlAI/issues/4642
+,What makes a good conversation? How controllable attributes affect human judgments,issue-camera,closed,https://github.com/facebookresearch/ParlAI/issues/1557
+,Real Time Custom Object Detection,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/608
+,AttributeError: module 'keras.backend' has no attribute 'get_session',issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/596
+,"Importing imageai.Detection Give ""Illegal Instruction""",issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/595
+,How can I get a real-time window when I run examples/camera_feed_detection.py,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/512
+,How do i exit a real time camera video input ?,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/510
+,[Solved] TypeError: detectObjectsFromVideo() got an unexpected keyword argument 'custom_objects',issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/447
+,How to detect on a live video without saving it ??,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/411
+,ValueError: An error occured. It may be that your input video is invalid.,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/391
+,How can I open camera window with object detection model and detect realtime?,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/361
+,"ValueError: Dimension 0 in both shapes must be equal, but are 1 and 18. Shapes are [1,1,1024,255] and [18,1024,1,1]. for 'Assign_360' (op: 'Assign') with input shapes: [1,1,1024,255], [18,1024,1,1].",issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/271
+,Realtime detection with VideoCapture,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/259
+,Can you use imageAI to delete a camera based on what it detects?,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/248
+,Output file #0 does not contain any stream: How to play .avi file?,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/198
+,How to parse output video as a stream instead of saving it as a .avi file?,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/195
+,"Error during import ""VideoObjectDetection""",issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/191
+,camera doesnot start for object recognition,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/188
+,detectCustomObjectsFromVideo() got an unexpected keyword argument 'return_detected_frame',issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/185
+,Depth camera wrong detections,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/181
+,Object detection in live feed- Output video runs very fast,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/177
+,i am facing this kind of problem when i am typing the live video prediction code...Please i am new to this..kindly help me out..,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/173
+,How can use this to detect images with in certain distance?,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/161
+,Issue with using imageai with multithreading,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/125
+,Segmentation fault,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/120
+,Maybe I don't know what I am doing,issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/115
+,TypeError: detectObjectsFromVideo() got an unexpected keyword argument 'camera_input',issue-camera,closed,https://github.com/OlafenwaMoses/ImageAI/issues/101
+,"Not detecting Gyro, Accel, Baro on Matek F405 based board",issue-camera,closed,https://github.com/iNavFlight/inav/issues/8303
+,Inav 5.0 OSD not populating,issue-camera,closed,https://github.com/iNavFlight/inav/issues/8232
+,Matek F411-WTE voltage sensor not working,issue-camera,closed,https://github.com/iNavFlight/inav/issues/8143
+,OSD is not centered in the camera image,issue-camera,closed,https://github.com/iNavFlight/inav/issues/8034
+,Blackbox data selection,issue-camera,closed,https://github.com/iNavFlight/inav/issues/8010
+,Strange failsafe RTH behavior when RC lost & manual RTH,issue-camera,closed,https://github.com/iNavFlight/inav/issues/8000
+,iNav not arming but it doesn't give the cause,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7971
+,"trying to build electronic equipment indoors ,need help",issue-camera,closed,https://github.com/iNavFlight/inav/issues/7958
+,"Matek F405-WSE (3.0.1, 4.0, and 4.1) Only Enters Safe to Arm State With Battery Disconnected",issue-camera,closed,https://github.com/iNavFlight/inav/issues/7878
+,Graphical OSD artificial horizon does not match Airplane pitch attitude.,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7820
+,Matek H743 ADC issue,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7813
+,#set rssi_scale invalid name,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7801
+,FlywooF411V2 I2C Issues and glitches,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7797
+,4 Motor outputs in Rover Mode or 4 Servo outputs,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7791
+,OSD Elements Incorrect 4.1RC1,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7789
+,"OSD Switch Indicator (for Flaps, Gear, etc.)",issue-camera,closed,https://github.com/iNavFlight/inav/issues/7717
+,OSD horizontal position,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7626
+,Remap servos or motors,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7503
+,matek f722se activate the buzzer after the modes were set,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7468
+,DJI OSD Support For Matek H743,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7433
+,"Failsafe and Arming issue Matek F-765, SPM4650, SRXL2, DX7",issue-camera,closed,https://github.com/iNavFlight/inav/issues/7384
+,Extend Headtracking pan feature from home arrow to crosshair and include tilt,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7370
+,Foxeer F722 V2 Motor Output Error,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7330
+,How to connect an external PINIO for MATEKF722mini in Inav,issue-camera,closed,https://github.com/iNavFlight/inav/issues/7292
+,Post Hold Drifting (rubberband effect),issue-camera,closed,https://github.com/iNavFlight/inav/issues/7216
+,Rotate 90° when opening？,issue-camera,closed,https://github.com/heartexlabs/labelImg/issues/342
+,Rotate image feature,issue-camera,closed,https://github.com/heartexlabs/labelImg/issues/198
+,Portrait Image Issues being treated as Landscape ones,issue-camera,closed,https://github.com/heartexlabs/labelImg/issues/159
+,can not read label.xml,issue-camera,closed,https://github.com/heartexlabs/labelImg/issues/76
+,in classify pred = model.predict_classes([image])[0] AttributeError: 'Sequential' object has no attribute 'predict_classes',issue-camera,closed,https://github.com/keras-team/keras/issues/15993
+,Model compression problem,issue-camera,closed,https://github.com/keras-team/keras/issues/14386
+,[Question] fit-generator error with custom data generator,issue-camera,closed,https://github.com/keras-team/keras/issues/14293
+,load_model requires h5py,issue-camera,closed,https://github.com/keras-team/keras/issues/13148
+,The last 25% of the test data set is all predicted to be wrong,issue-camera,closed,https://github.com/keras-team/keras/issues/13077
+,BatchNormalization Layer gives inconsistent output for model.predict(),issue-camera,closed,https://github.com/keras-team/keras/issues/12400
+,I get wrong prediction on face recognition using Keras,issue-camera,closed,https://github.com/keras-team/keras/issues/12196
+,Hi I have posted my problem in stackflow but found no answer.Please help..When i am trying to load my model from a thread(using multithreading in python) and used detection function there I am getting a whole bunch of errors.(the same works fine if i dont used thread.,issue-camera,closed,https://github.com/keras-team/keras/issues/11911
+,Loading a fine-tuned model and getting labels.,issue-camera,closed,https://github.com/keras-team/keras/issues/11599
+,Unable to save and load model.,issue-camera,closed,https://github.com/keras-team/keras/issues/9162
+,"ValueError: Dimension 2 in both shapes must be equal, but are 320 and 16 for 'Assign' (op: 'Assign') with input shapes: [8,8,320,16], [8,8,16,3]",issue-camera,closed,https://github.com/keras-team/keras/issues/8294
+,.predict() function is not working properly,issue-camera,closed,https://github.com/keras-team/keras/issues/6987
+,image generator exposure/contrast,issue-camera,closed,https://github.com/keras-team/keras/issues/6111
+,"Tensorflow Backend - ValueError: Tensor Tensor(""AvgPool:0"", shape=(?, ?, ?, 2048), dtype=float32) is not an element of this graph.",issue-camera,closed,https://github.com/keras-team/keras/issues/4385
+,Model fit_generator not pulling data samples as expected,issue-camera,closed,https://github.com/keras-team/keras/issues/3461
+,Fit model more than one time,issue-camera,closed,https://github.com/keras-team/keras/issues/3094
+,Illegal instruction: 4 error,issue-camera,closed,https://github.com/keras-team/keras/issues/2863
+,MediaDevices.getUserMedia() is not supported on your browser,issue-camera,closed,https://github.com/leon-ai/leon/issues/97
+,naomi-setup.sh fails to set up virtual environment on RPi2B,issue-camera,closed,https://github.com/NaomiProject/Naomi/issues/260
+,Movement,issue-camera,closed,https://github.com/microsoft/malmo/issues/767
+,Multi-agent : Camera angle change between two episodes,issue-camera,closed,https://github.com/microsoft/malmo/issues/444
+,/usr/bin/python run_mission.py Crashed,issue-camera,closed,https://github.com/microsoft/malmo/issues/406
+,Add camera position data to returned frames,issue-camera,closed,https://github.com/microsoft/malmo/issues/257
+,Option to set camera view,issue-camera,closed,https://github.com/microsoft/malmo/issues/121
+,Video dataset for inference,issue-camera,closed,https://github.com/Project-MONAI/MONAI/issues/4746
+,Package: Gstreamer Plugins Bad,issue-camera,closed,https://github.com/OpenVoiceOS/OpenVoiceOS/issues/49
+,Use other timestamps if there is no taken timestamp,issue-camera,closed,https://github.com/photonixapp/photonix/issues/249
+,Can't Handle Raw CR3 Images,issue-camera,closed,https://github.com/photonixapp/photonix/issues/202
+,Import fails when image has camera model but no camera make,issue-camera,closed,https://github.com/photonixapp/photonix/issues/196
+,Allow user to select preferred file where there are multiple PhotoFiles for a single Photo,issue-camera,closed,https://github.com/photonixapp/photonix/issues/193
+,"GraphQL Error: ""invalid literal for int() with base 10: '3.7'""",issue-camera,closed,https://github.com/photonixapp/photonix/issues/167
+,Exif rotation data not being used when first importing and determining image width/height,issue-camera,closed,https://github.com/photonixapp/photonix/issues/79
+,Docker image for ARM/Raspberry Pi,issue-camera,closed,https://github.com/photonixapp/photonix/issues/67
+,Location tagging is wrong in some circumstances,issue-camera,closed,https://github.com/photonixapp/photonix/issues/63
+,Raw photo processing,issue-camera,closed,https://github.com/photonixapp/photonix/issues/30
+,Photo detail view,issue-camera,closed,https://github.com/photonixapp/photonix/issues/4
+,Feature suggestion: try/catch errrors & scrape trends by month over a range of years & more,issue-camera,closed,https://github.com/GeneralMills/pytrends/issues/421
+,Pythonic Way To Parse And Print TrendReq().categories()?,issue-camera,closed,https://github.com/GeneralMills/pytrends/issues/412
+,"ruamel.yaml.scanner.ScannerError: while scanning a simple key in ""<unicode string>"", line 7, column 3 could not find expected ':' in ""<unicode string>"", line 8, column 3",issue-camera,closed,https://github.com/RasaHQ/rasa/issues/2998
+,"How to use the events caused by a custom action, to be shown as a reply from the bot in the conversation?",issue-camera,closed,https://github.com/RasaHQ/rasa/issues/2976
+,dialog is not following stories.md after introducing custom actions,issue-camera,closed,https://github.com/RasaHQ/rasa/issues/2921
+,Import: Hard linking instead of move/copy,issue-camera,closed,https://github.com/photoprism/photoprism/issues/2543
+,Metadata: Prefer SubSecDateTimeOriginal and SubSecCreateDate timestamps,issue-camera,closed,https://github.com/photoprism/photoprism/issues/2320
+Wei Tang,"Mobile, Android: Scrolling thousands of pics in ""Search"" category crashes multiple browsers",issue-camera,closed,https://github.com/photoprism/photoprism/issues/2253
+Daniel,Videos: Improve FFmpeg parameters for Intel QSV hardware transcoding,issue-camera,closed,https://github.com/photoprism/photoprism/issues/2222
+,SQLite: Photos disappeared after upgrading to the latest development preview build,issue-camera,closed,https://github.com/photoprism/photoprism/issues/2216
+,Search: Add,issue-camera,closed,https://github.com/photoprism/photoprism/issues/2169
+,and,issue-camera,closed,https://github.com/photoprism/photoprism/issues/2079
+,filters,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1827
+,Search: Improve camera and lens filters to accept names as parameters,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1816
+,Bug: GoPro Hero 9 Videos not detected correctly,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1809
+,old pictures exif metadata missing?,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1798
+,Bug: Webinterface dies when scrolling through images,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1785
+,Thumbnails: Apple Display P3 profile support for more accurate colors,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1773
+,WebDAV: Don't allow two-way file sync,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1735
+,"Getting ""connection was reset"" when trying to open photoprism",issue-camera,closed,https://github.com/photoprism/photoprism/issues/1559
+,"CLI: Improve index command docs, path must be relative",issue-camera,closed,https://github.com/photoprism/photoprism/issues/1537
+,Index: Automatically remove orphan file entries,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1519
+,Customize card view,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1501
+,MySQL: Fix compatibility issues,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1481
+,Videos: Add .mp to known file extensions,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1455
+,GET /api/v1/photos takes multiple seconds,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1413
+,Wrong timestamp/timezone offset in image detected,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1407
+,"In the mosaic view, is an SQL query containing 4 joins (for me, 700ms+) required? A simple query on photos/files table is orders of magnitude faster.",issue-camera,closed,https://github.com/photoprism/photoprism/issues/1400
+,ERRO media: failed creating thumbnail,issue-camera,closed,https://github.com/photoprism/photoprism/issues/1388
+,What goes under PHOTOPRISM_STORAGE_PATH (/photoprism/storage),issue-camera,closed,https://github.com/photoprism/photoprism/issues/1362
+,Capturing custom native module,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/425
+,react-native-view-shot:compileDebugJavaWithJavac FAILED,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/411
+,Failed to capture view snapshot,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/395
+,iOS expo-camera support?,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/377
+,Android - ViewShot is not capturing all children of the View,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/370
+,I cannot capture a screenshot of other objects I put on the camera object.,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/327
+,snapshotContentContainer can only be used,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/313
+,CaptureScreen() failing.,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/281
+,how to capture entire screen,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/258
+,Can not take screenshot with react native camera on ios,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/250
+,I want to know how you took a screenshot of the react-native-camera. Can you give me an example?,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/245
+,How can I save an image with transparency?,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/235
+,Warning: componentWillReceiveProps is deprecated and will be removed in the next major version. Use static getDerivedStateFromProps instead.,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/227
+,Possible Unhandled Promise Rejection can't find variable: viewShot,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/225
+,Cannot read property 'then' of undefined,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/214
+,react-native-view-shot doesn't work as expected with react-native-camera,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/193
+,Get image from uri.,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/181
+,Change file uri,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/163
+,can not readFile that captured as tmpfile,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/159
+,Build android fail,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/148
+,Error height incomplete Image,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/91
+,View shot of camera view renders a black image,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/85
+,"Taking snapshot and getting blank, possible due to zIndex and position absolute?",issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/79
+,"Image could not show on photo ,but showed in file",issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/61
+,Image real path to save it to camera roll,issue-camera,closed,https://github.com/gre/react-native-view-shot/issues/58
+,raspbian Buster venv Segmentation fault,issue-camera,closed,https://github.com/synesthesiam/rhasspy/issues/77
+,Issues getting started,issue-camera,closed,https://github.com/synesthesiam/rhasspy/issues/2
+,Data visualization,issue-camera,closed,https://github.com/okfn-brasil/serenata-de-amor/issues/95
+,Create TL;DR of Bureau Act describing the CEAP,issue-camera,closed,https://github.com/okfn-brasil/serenata-de-amor/issues/69
+,Unable to install spacy via pip,issue-camera,closed,https://github.com/explosion/spaCy/issues/7744
+,"key error in file ""gold.pyx"" : ner model for multiple named entities recognition on same training data in a single code.",issue-camera,closed,https://github.com/explosion/spaCy/issues/2470
+,Ambiguous dependency parsing for negation,issue-camera,closed,https://github.com/explosion/spaCy/issues/2277
+,Segmentation fault if text too long or doc parsed twice,issue-camera,closed,https://github.com/explosion/spaCy/issues/1826
+,Picamera and PIR sensor to form surveillance system to mirror,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/711
+,Setup camera and display video image in the mirror,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/702
+,Smart mirror does not respond to microphone,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/690
+,npm start issue,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/654
+,On Speech Recognition,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/627
+,Capture movement from camera,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/536
+,Microphone issue,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/421
+,My Microphone is not getting recognized,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/418
+,Motion Detection and Auto-Sleep / Auto-Wake functionality merger,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/326
+,Pulseaudio crashes constantly,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/307
+,Switch calendar via Voice Command per User,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/266
+,Speech recognition not working [Keyword Spotting],issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/170
+,Face Detection!,issue-camera,closed,https://github.com/evancohen/smart-mirror/issues/59
+,Various internal errors,issue-camera,closed,https://github.com/vladmandic/human/issues/278
+,Error: Requested texture size [4739x4739] greater than WebGL maximum on this browser / GPU [4096x4096].,issue-camera,closed,https://github.com/vladmandic/human/issues/275
+,"When using the front camera, the content of the camera is opposite to the reality. How can I mirror it like a mobile camera?",issue-camera,closed,https://github.com/vladmandic/human/issues/273
+,Electron app not working,issue-camera,closed,https://github.com/vladmandic/human/issues/243
+,[Safari]: exception: null is not an object (evaluating 'gl.isContextLost'),issue-camera,closed,https://github.com/vladmandic/human/issues/205
+,You may need an additional loader to handle the result of these loaders.,issue-camera,closed,https://github.com/vladmandic/human/issues/204
+,No camera image in Demo link,issue-camera,closed,https://github.com/vladmandic/human/issues/158
+,RPi3 on demo/nodejs/node-webcam.js SyntaxError: Invalid or unexpected token,issue-camera,closed,https://github.com/vladmandic/human/issues/154
+,About anthropometry,issue-camera,closed,https://github.com/vladmandic/human/issues/152
+,Head Pose,issue-camera,closed,https://github.com/vladmandic/human/issues/125
+,Get images from video,issue-camera,closed,https://github.com/vladmandic/human/issues/118
+,Replacing webcam with camera,issue-camera,closed,https://github.com/vladmandic/human/issues/116
+,go live - demo not working,issue-camera,closed,https://github.com/vladmandic/human/issues/115
+,Gaze Direction,issue-camera,closed,https://github.com/vladmandic/human/issues/105
+,Some questions and Types,issue-camera,closed,https://github.com/vladmandic/human/issues/102
+,"Not finding an face in the image, why?",issue-camera,closed,https://github.com/vladmandic/human/issues/99
+,Part of face even no real face can be recognize as humanbeings.,issue-camera,closed,https://github.com/vladmandic/human/issues/84
+,Model robustness,issue-camera,closed,https://github.com/vladmandic/human/issues/63
+,Can I know if a person is looking at the camera ?,issue-camera,closed,https://github.com/vladmandic/human/issues/57
+,Documentation errors,issue-camera,closed,https://github.com/vladmandic/human/issues/55
+,multiple enhancements to body model,issue-camera,closed,https://github.com/vladmandic/human/issues/48
+,"When both the mesh and iris model are enabled, the page will stall for 4-5 seconds.",issue-camera,closed,https://github.com/vladmandic/human/issues/42
+,Camera access not supported,issue-camera,closed,https://github.com/vladmandic/human/issues/41
+,wasm performance issues,issue-camera,closed,https://github.com/vladmandic/human/issues/40
+,gestures should support multiple persons,issue-camera,closed,https://github.com/vladmandic/human/issues/38
+,Google Cardboard view using three.js,issue-camera,closed,https://github.com/googlearchive/vrview/issues/312
+,VrView Error render: Video load error [Object Event] issues,issue-camera,closed,https://github.com/googlearchive/vrview/issues/272
+,Customizing the color of Hotspots?,issue-camera,closed,https://github.com/googlearchive/vrview/issues/233
+,Default Yaw is inconsistent on second scene,issue-camera,closed,https://github.com/googlearchive/vrview/issues/167
+,VR Mode: Reticle / Fuse button / Hotspot 'virtual' click,issue-camera,closed,https://github.com/googlearchive/vrview/issues/145
+,[Feature] click event: return pitch and yaw,issue-camera,closed,https://github.com/googlearchive/vrview/issues/140
+,Rotation camera not work,issue-camera,closed,https://github.com/googlearchive/vrview/issues/131
+,Convert image into equirectangular image,issue-camera,closed,https://github.com/googlearchive/vrview/issues/120
+,Cannot convert Cardboard Camera image to VR View embeddable using online tool,issue-camera,closed,https://github.com/googlearchive/vrview/issues/71
+,Carboard Camera converter does not recognise image created in cardboard camera app,issue-camera,closed,https://github.com/googlearchive/vrview/issues/39
+,start_yaw has different/ no effect depending on platform,issue-camera,closed,https://github.com/googlearchive/vrview/issues/8
+,Is it possible to read 360 (not 720) images taken by cardboard APP,issue-camera,closed,https://github.com/googlearchive/vrview/issues/2
+,Problem with WebcamStreamer start / stop and changing the assigned camera,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/839
+,No Webcam detected on Ubuntu,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/837
+,Webcam not working while on Zoom,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/834
+,How to properly kill a thread,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/833
+,Ubuntu: Not able to detect camera,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/832
+,How to get a specific USB camera?,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/830
+,Capture black screen,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/829
+,"Exception in thread ""main"" java.lang.NoClassDefFoundError",issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/828
+,Not an Issue: Need Information,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/827
+,I'm having issues with some libs,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/821
+,can't get more camer device,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/818
+,which driver UVC camera can use MJPG,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/807
+,how to select video input channel when used in video card with more than one input .,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/801
+,Library 'OpenIMAJGrabber' was not found in path,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/794
+,Finding USB PORT,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/790
+,First open webcam always throws exception,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/771
+,java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory in Java Swing SLF4J-simple-1.7.25,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/768
+,How to perform QR code analysis while displaying camera pictures,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/764
+,On MacOs Catalina java call Webcam.getWebcams() does not return available camera,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/744
+,Not Capturing Image on Windows 10,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/742
+,Remote computer accessing my webcam,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/741
+,After closing panel Camera is not getting closed and going on infinite loop,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/739
+,On what Image Processing Algorithm is WebCam Capture implemented?,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/714
+,macOS Mojave camera access permission issues,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/713
+,zoom in/out camera using webcm-capture,issue-camera,closed,https://github.com/sarxos/webcam-capture/issues/660
+,activity recognition on a live cctv camera.,issue-camera,open,https://github.com/smellslikeml/ActionAI/issues/56
+,Cannot open blocks form UE4,issue-camera,open,https://github.com/microsoft/AirSim/issues/4659
+,client.simSetFocalLength Issue,issue-camera,open,https://github.com/microsoft/AirSim/issues/4648
+,moveToPositionAsync().join() not working as expected.,issue-camera,open,https://github.com/microsoft/AirSim/issues/4614
+,Holes in depthmap,issue-camera,open,https://github.com/microsoft/AirSim/issues/4610
+,How to get equal exposure for all camera for stiching,issue-camera,open,https://github.com/microsoft/AirSim/issues/4589
+,ROS1 ambiguous camera tf frame_ids,issue-camera,open,https://github.com/microsoft/AirSim/issues/4578
+,Low FPS and AirSim as a viable RL training simulator,issue-camera,open,https://github.com/microsoft/AirSim/issues/4576
+,"Get ""no compatible vehicles created for current SimMode"" when running computer vision mode with custom vehicle",issue-camera,open,https://github.com/microsoft/AirSim/issues/4573
+,How to get a fixed frame rate from the camera,issue-camera,open,https://github.com/microsoft/AirSim/issues/4554
+,"How to show F4 snow texture in AirSim ""scene"" camera",issue-camera,open,https://github.com/microsoft/AirSim/issues/4543
+,How to get depth values in realtime?,issue-camera,open,https://github.com/microsoft/AirSim/issues/4525
+,Low FPS depth images (depthplanner),issue-camera,open,https://github.com/microsoft/AirSim/issues/4522
+,LiDAR Pointcloud to 2D image,issue-camera,open,https://github.com/microsoft/AirSim/issues/4494
+,No optical flow in certain directions,issue-camera,open,https://github.com/microsoft/AirSim/issues/4488
+,How to calculate corresponding points coordinates with RGBD image?,issue-camera,open,https://github.com/microsoft/AirSim/issues/4473
+,Set Vehicle Pose teleporting to random locations when vehicle collided with a wall,issue-camera,open,https://github.com/microsoft/AirSim/issues/4435
+,Airsim ROS2 jerky movement and control when capturing imagery,issue-camera,open,https://github.com/microsoft/AirSim/issues/4428
+,Correct commands to get the OpticalFlow,issue-camera,open,https://github.com/microsoft/AirSim/issues/4414
+,Improve accuracy of FDetectionInfo.Box2D,issue-camera,open,https://github.com/microsoft/AirSim/issues/4412
+,ROS2: Understand TF tree: camera_optical VS camera_optical/static,issue-camera,open,https://github.com/microsoft/AirSim/issues/4353
+,Unable to view the Subwindow,issue-camera,open,https://github.com/microsoft/AirSim/issues/4345
+,Cannot build AirSim in Blocks Windows UE4.27,issue-camera,open,https://github.com/microsoft/AirSim/issues/4344
+,"""Normal"" & ""Segmentation"" record from BP",issue-camera,open,https://github.com/microsoft/AirSim/issues/4322
+,Python simGetImages throws unknown exception,issue-camera,open,https://github.com/microsoft/AirSim/issues/4312
+,airsim send pwm px4 get mavros,issue-camera,open,https://github.com/microsoft/AirSim/issues/4210
+,Showing strange error,issue-camera,open,https://github.com/carla-simulator/carla/issues/5626
+,Maximum acceleration and deceleration of a vehicle,issue-camera,open,https://github.com/carla-simulator/carla/issues/5591
+,Lidar doesn't work well in the map customized by RoadRunner,issue-camera,open,https://github.com/carla-simulator/carla/issues/5560
+,raise IndexError('Cannot choose from an empty sequence') from None,issue-camera,open,https://github.com/carla-simulator/carla/issues/5547
+,How does Depth Camera calculate Distance?,issue-camera,open,https://github.com/carla-simulator/carla/issues/5536
+,Any idea how to add checkboard control code for PythonAPI use?,issue-camera,open,https://github.com/carla-simulator/carla/issues/5520
+,No-rendering doesn't stop producing camera data,issue-camera,open,https://github.com/carla-simulator/carla/issues/5502
+,Transformation from Camera to World,issue-camera,open,https://github.com/carla-simulator/carla/issues/5483
+,"rgb images: lot of noise in dark regions, grain jitter, scratch-marks, aliasing",issue-camera,open,https://github.com/carla-simulator/carla/issues/5455
+,Sensor Attribute Ranges,issue-camera,open,https://github.com/carla-simulator/carla/issues/5417
+,instance segmentaion bug in town01,issue-camera,open,https://github.com/carla-simulator/carla/issues/5367
+,Mouse always looking down when moving,issue-camera,open,https://github.com/carla-simulator/carla/issues/5362
+,3D Bounding box,issue-camera,open,https://github.com/carla-simulator/carla/issues/5321
+,Polarization support in CARLA,issue-camera,open,https://github.com/carla-simulator/carla/issues/5254
+,"Manual control mode， and the camera picture is saved, the screen will be stuck",issue-camera,open,https://github.com/carla-simulator/carla/issues/5227
+,Why use camera.destroy() in the tutorial.py,issue-camera,open,https://github.com/carla-simulator/carla/issues/5223
+,Getting reflectivity from lidar sensor,issue-camera,open,https://github.com/carla-simulator/carla/issues/5193
+,8 fps when running in server mode,issue-camera,open,https://github.com/carla-simulator/carla/issues/5163
+,Attribute Error: BlueprintLibrary object has no attribute set_attribute,issue-camera,open,https://github.com/carla-simulator/carla/issues/5130
+,Not able to retrieve data from Radar Sensor,issue-camera,open,https://github.com/carla-simulator/carla/issues/5102
+,Getting the world 3d coordinates from mouse click in pygame window in CARLA,issue-camera,open,https://github.com/carla-simulator/carla/issues/5100
+,Configuring collision sensor in synchronous mode,issue-camera,open,https://github.com/carla-simulator/carla/issues/5082
+,Configuring the frequency of changing the Ego location,issue-camera,open,https://github.com/carla-simulator/carla/issues/5078
+,Understanding how sensors and lidar (in particular work in Carla),issue-camera,open,https://github.com/carla-simulator/carla/issues/5026
+,fstop and focal_distance attribute seem do not work in sensor.camera.rgb,issue-camera,open,https://github.com/carla-simulator/carla/issues/5024
+,Add ADE20k,issue-camera,open,https://github.com/huggingface/datasets/issues/3131
+,XSum dataset missing spaces between sentences,issue-camera,open,https://github.com/huggingface/datasets/issues/839
+,How to use a trained params to predict?,issue-camera,open,https://github.com/dmlc/gluon-cv/issues/229
+,Set i2s pins on custom board (AIS-949),issue-camera,open,https://github.com/espressif/esp-skainet/issues/58
+,[FR] Add 3D detection/polyline label types,issue-camera,open,https://github.com/voxel51/fiftyone/issues/1946
+,[FR] Add support for toggling between multiple media fields in the App,issue-camera,open,https://github.com/voxel51/fiftyone/issues/1760
+,How to train 3D Object Detection Model with exported custom labeled dataset?,issue-camera,open,https://github.com/opencv/cvat/issues/4801
+,Support for image and/or video annotation from rosbag,issue-camera,open,https://github.com/opencv/cvat/issues/4781
+,Cuboid for tilted objects,issue-camera,open,https://github.com/opencv/cvat/issues/4762
+,add union annotation to Check annotation accuracy,issue-camera,open,https://github.com/opencv/cvat/issues/4587
+,Camera view change in 3D marking,issue-camera,open,https://github.com/opencv/cvat/issues/4303
+,Info about datasets,issue-camera,open,https://github.com/opencv/cvat/issues/3939
+,Annotate rigid objects in 2D image with standard 3D cube,issue-camera,open,https://github.com/opencv/cvat/issues/3387
+,Video/Image loading status as on youtube,issue-camera,open,https://github.com/opencv/cvat/issues/8
+,Hard-to-find documentation for a Docker image,issue-accessibility,closed,https://github.com/apache/airflow/issues/14644
+,Improve DAG operator status accessibility for the color blind,issue-accessibility,closed,https://github.com/apache/airflow/issues/13114
+,[FEATURE] First Super Admin Login should always be local,issue-accessibility,closed,https://github.com/botpress/botpress/issues/5423
+,Chatbot usage for blind users,issue-accessibility,closed,https://github.com/botpress/botpress/issues/2980
+,Audio speaking capabilities for HITL - text message as Accessibility feature,issue-accessibility,closed,https://github.com/botpress/botpress/issues/2170
+,Help to interpret shap values and CATE,issue-accessibility,closed,https://github.com/microsoft/EconML/issues/614
+,Problem with beeswarm plot,issue-accessibility,closed,https://github.com/microsoft/EconML/issues/612
+,internet server inference error installing bart,issue-accessibility,closed,https://github.com/facebookresearch/ParlAI/issues/4642
+,Is there a way to control mouse scroll wheel zoom speed/sensitivity?,issue-accessibility,closed,https://github.com/opencv/cvat/issues/219
+,Enable audio output of cards,issue-accessibility,closed,https://github.com/mozilla-extensions/firefox-voice/issues/582
+,Make keyboard shortcut configurable,issue-accessibility,closed,https://github.com/mozilla-extensions/firefox-voice/issues/560
+,Use <input> in popup,issue-accessibility,closed,https://github.com/mozilla-extensions/firefox-voice/issues/57
+,0.1.84 PyPI release,issue-accessibility,closed,https://github.com/google/sentencepiece/issues/418
+,Feedback / discussion regarding release-cycle.,issue-accessibility,closed,https://github.com/iNavFlight/inav/issues/2070
+,Add total training steps as a property to trainer,issue-accessibility,closed,https://github.com/Lightning-AI/lightning/issues/10760
+,RFC: shared data holder for loops,issue-accessibility,closed,https://github.com/Lightning-AI/lightning/issues/9220
+,wave2vec integration in NeMo,issue-accessibility,closed,https://github.com/Lightning-AI/lightning/issues/4445
+,Build fails on :runClient,issue-accessibility,closed,https://github.com/microsoft/malmo/issues/431
+,Develop MVP of model bundle,issue-accessibility,closed,https://github.com/Project-MONAI/MONAI/issues/3482
+,improve accessibility in docs,issue-accessibility,closed,https://github.com/RasaHQ/rasa/issues/6765
+,unexpected label produced by custom-trained dependency parser,issue-accessibility,closed,https://github.com/explosion/spaCy/issues/5405
+,"Installation error for ""pip install -U spacy[cuda]"" on Ubuntu 18.04, CUDA 10.1, cuDNN 7.5, cupy for CUDA 10.1",issue-accessibility,closed,https://github.com/explosion/spaCy/issues/4046
+,Tokenization not working using v2.1,issue-accessibility,closed,https://github.com/explosion/spaCy/issues/3356
+,[Website] Features table unclear,issue-accessibility,closed,https://github.com/explosion/spaCy/issues/1471
+,Accessibility Issues,issue-accessibility,closed,https://github.com/fossasia/susi.ai/issues/1763
+,Improve Lighthouse score,issue-accessibility,closed,https://github.com/fossasia/susi.ai/issues/1632
+,Parallellize build,issue-accessibility,closed,https://github.com/fossasia/susi_server/issues/632
+,How to reuse functionality of a (generic) dataset?,issue-accessibility,open,https://github.com/huggingface/datasets/issues/433
+,[wakeword] Raise window when wakeword is given,issue-accessibility,open,https://github.com/mozilla-extensions/firefox-voice/issues/950
+,"implement ""Open developer tools""",issue-accessibility,open,https://github.com/mozilla-extensions/firefox-voice/issues/359
+,ImportError: cannot import name 'TextProcess' from 'utils',issue-voice,open,https://github.com/LearnedVector/A-Hackers-AI-Voice-Assistant/issues/102
+,"Want to add some of the unique commands are Search, Finding Location, Playing National Anthem",issue-voice,open,https://github.com/LearnedVector/A-Hackers-AI-Voice-Assistant/issues/77
+,Can I also use mp3 files for training instead of wav files?,issue-voice,open,https://github.com/LearnedVector/A-Hackers-AI-Voice-Assistant/issues/53
+,KeyError: 'D',issue-voice,open,https://github.com/LearnedVector/A-Hackers-AI-Voice-Assistant/issues/30
+,ReduceLROnPlateau problem.,issue-voice,open,https://github.com/LearnedVector/A-Hackers-AI-Voice-Assistant/issues/25
+,python stopped working,issue-voice,open,https://github.com/LearnedVector/A-Hackers-AI-Voice-Assistant/issues/21
+,[SCENARIO],issue-voice,open,https://github.com/microsoft/AI/issues/19
+,Trigger by Voice as 'Okay Google' not working,issue-voice,open,https://github.com/just-ai/aimybox-android-assistant/issues/63
+,How to extend Aimybox Assistant to different Activities?,issue-voice,open,https://github.com/just-ai/aimybox-android-assistant/issues/61
+,Android app crashing,issue-voice,open,https://github.com/alan-ai/alan-sdk-flutter/issues/12
+,"LogPackageName: SearchForPackageOnDisk took 0.008s, but **failed to resolve Blocks**",issue-voice,open,https://github.com/microsoft/AirSim/issues/4197
+,Fixed Wing Aircraft,issue-voice,open,https://github.com/microsoft/AirSim/issues/2955
+,Alan does not recognize/record voice input on specific Android devices,issue-voice,open,https://github.com/alan-ai/alan-sdk-ionic/issues/25
+,Callback for callProjectApi() doesn't get executed on native platforms,issue-voice,open,https://github.com/alan-ai/alan-sdk-ionic/issues/23
+,Send a command from client to script without voice,issue-voice,open,https://github.com/alan-ai/alan-sdk-web/issues/50
+,Python support for voice scripts?,issue-voice,open,https://github.com/alan-ai/alan-sdk-web/issues/34
+,sla_miss.execution_date is incorrect for daily dagruns,issue-voice,open,https://github.com/apache/airflow/issues/22532
+,[BUG] Carousel | Buttons on Carousel have to be clicked,issue-voice,open,https://github.com/botpress/botpress/issues/5718
+,[BUG] Google-Speech | Markdown,issue-voice,open,https://github.com/botpress/botpress/issues/5714
+,annyang.min.js move an object in 3D,issue-voice,open,https://github.com/TalAter/annyang/issues/446
+,any way to increase reliability for recognizing individual letters and numbers?,issue-voice,open,https://github.com/TalAter/annyang/issues/445
+,Feature request: Add Text To Speech feature using default browser voices,issue-voice,open,https://github.com/TalAter/annyang/issues/441
+,Annyang keeps starting and stopping,issue-voice,open,https://github.com/TalAter/annyang/issues/439
+,Failed to execute 'requestFullscreen' on 'Element': API can only be initiated by a user gesture.,issue-voice,open,https://github.com/TalAter/annyang/issues/438
+,Issues related in the implementation of annyang js,issue-voice,open,https://github.com/TalAter/annyang/issues/436
+,Implementation of annyang,issue-voice,open,https://github.com/TalAter/annyang/issues/435
+,Logging commands twice and delay/no voice after multiple commands,issue-voice,open,https://github.com/TalAter/annyang/issues/393
+,Pause and resume with voice,issue-voice,open,https://github.com/TalAter/annyang/issues/346
+,"After abort, and restarting, annyang will hear everything twice.",issue-voice,open,https://github.com/TalAter/annyang/issues/313
+,Annyang not working after giving api keys,issue-voice,open,https://github.com/TalAter/annyang/issues/288
+,Doea carla support unreal engine 5?,issue-voice,open,https://github.com/carla-simulator/carla/issues/5641
+,make launch error in BuildCarlaUE4.sh: line 161: recipe for target 'launch' failed make: *** [launch] Error 137,issue-voice,open,https://github.com/carla-simulator/carla/issues/4089
+,Docker image for building Carla on Windows,issue-voice,open,https://github.com/carla-simulator/carla/issues/1585
+,RuntimeError when using torchaudio 0.12.0 to load MP3 audio file,issue-voice,open,https://github.com/huggingface/datasets/issues/4776
+,Can't load the Hausa audio dataset,issue-voice,open,https://github.com/huggingface/datasets/issues/4634
+,Optional Content Warning for Datasets,issue-voice,open,https://github.com/huggingface/datasets/issues/4163
+,I can't view HFcallback dataset for ASR Space,issue-voice,open,https://github.com/huggingface/datasets/issues/3978
+,Error loading file audio when downloading the Common Voice dataset directly from the Hub,issue-voice,open,https://github.com/huggingface/datasets/issues/3909
+,Builder Configuration Update Required on Common Voice Dataset,issue-voice,open,https://github.com/huggingface/datasets/issues/3720
+,[Audio] Path of Common Voice cannot be used for audio loading anymore,issue-voice,open,https://github.com/huggingface/datasets/issues/3663
+,Add The Mexican Emotional Speech Database (MESD),issue-voice,open,https://github.com/huggingface/datasets/issues/3577
+,Common Voice Belarusian Dataset,issue-voice,open,https://github.com/huggingface/datasets/issues/3393
+,Update CommonVoice with new release,issue-voice,open,https://github.com/huggingface/datasets/issues/2730
+,"WakeNet 8-bit Quantized: ""Item psram alloc failed"" on ESP32-S3-Wroom-1-N8R2 (AIS-864)",issue-voice,open,https://github.com/espressif/esp-skainet/issues/48
+,error to compile amazon_aia for DSPG board,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/166
+,spi_flash: Detected size(8192k) smaller than the size in the binary image header(16384k). Probe failed,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/164
+,Voice Assistance - Failed to verify peer certificate!,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/161
+,undefined reference to `xTaskNotify',issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/160
+,Does this SDK only support Lyra board?,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/155
+,Vaquita-DSPG Crashes While Idle,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/151
+,Authentication methods on GVA,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/143
+,Failed idf.py build for the branch feature/aia-beta,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/132
+,"Voice cracking on Speaker, when Audio song played via Android Phone",issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/117
+,/esp-va-sdk/components/voice_assistant/lib/libalexa.a(bluetooth_internal.o):(.literal.bluetooth_internal_start+0x50): undefined reference to `esp_avrc_tg_init',issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/115
+,Error while recording voice command,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/113
+,Registration with a custom AWS account.,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/107
+,MQTT over WebSocket,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/106
+,google assistent,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/102
+,Can Google Dialogflow and Alexa work at the same time？,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/93
+,Google Voice Assistant如何添加Actions来控制开发板的硬件,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/83
+,Questions about Alisa's single and dual microphones,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/78
+,a2dp sink and alexa,issue-voice,open,https://github.com/espressif/esp-va-sdk/issues/68
+,[Wav2Vec2] Zero-shot Transfer model on Common Voice - Espeak phonetizer,issue-voice,open,https://github.com/facebookresearch/fairseq/issues/4045
+,How can I use XLSR-53 with fairseq?,issue-voice,open,https://github.com/facebookresearch/fairseq/issues/3275
+,Solve mathematics questions given by the user,issue-voice,open,https://github.com/PCCoE-Hacktoberfest-21/FRIDAY/issues/4
+,Open google maps and display the location given by the user,issue-voice,open,https://github.com/PCCoE-Hacktoberfest-21/FRIDAY/issues/3
+,I just wanted to say that it makes me sad that it's dead,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1913
+,Routine matching is broken and too aggressive,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1908
+,Create and use list of preferred voices,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1907
+,Onboarding screens should be displayed after install,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1900
+,"Operate offline and locally without ""cloud""",issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1898
+,"Header - ""Install Now"" button doesn't do anything",issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1897
+,Header - Incorrect hrefs for Privacy Policy and Lexicon links,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1896
+,Play a voice sample when changing voice preference,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1893
+Fu,The default keyboard shortcut (Ctrl + .) conflicts with Firefox Containers,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1876
+,Put in badge/page open for new features,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1869
+,Integrate with MyCroft skills,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1843
+,Personally configured cards,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1828
+,The error when no speech is made should include the microphone name,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1826
+,"Uses Google, not my specified search engine",issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1822
+,"Default audio output, add controls to popup",issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1819
+,"""This is a test"" checkmark needs new image",issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1808
+,Add voice output flags to Telemetry,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1752
+,Support forward and rewind request in reader mode,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1704
+,Watch for dangling message handlers,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1681
+,Allow new hotkeys bound to phrases/routines,issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1663
+,"""Add note"" command not working on Google Docs and Google Slides",issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1645
+,"""Mute audio"", ""Unmute audio"" give error when in narration mode",issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1642
+,"""Unmute music"" not working after ""Mute music"" command in Youtube",issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1626
+,"""Increase / Decrease volume"", ""Mute / Unmute music"" opens most used or default music tab when made in a non music tab",issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1624
+,"""Play playlist"" command gives ""Internal error: TypeError: service.playPlaylist is not a function"" on Youtube",issue-voice,open,https://github.com/mozilla-extensions/firefox-voice/issues/1623
+,Auto landing with low battery,issue-voice,open,https://github.com/iNavFlight/inav/issues/3902
+,Duplicated prediction results when open Auto-Annotation in NER template,issue-voice,open,https://github.com/heartexlabs/label-studio/issues/2641
+,[Feature Request] Enable offline Speech-to-Text and Text-to-Speech,issue-voice,open,https://github.com/jovotech/jovo-framework/issues/1237
+,Azure TTS Support,issue-voice,open,https://github.com/leon-ai/leon/issues/361
+,STT / TTS not working,issue-voice,open,https://github.com/leon-ai/leon/issues/344
+,Support for modern TTS models for various languages,issue-voice,open,https://github.com/leon-ai/leon/issues/234
+,Support for Japanese language,issue-voice,open,https://github.com/leon-ai/leon/issues/206
+,Why we need save the audio by TTS engine in /tmp/,issue-voice,open,https://github.com/leon-ai/leon/issues/198
+,Use JSGF for writing intents,issue-voice,open,https://github.com/NaomiProject/Naomi/issues/363
+,Ability to recognize users by voice,issue-voice,open,https://github.com/NaomiProject/Naomi/issues/267
+,Steps involved to add a new language?,issue-voice,open,https://github.com/NaomiProject/Naomi/issues/265
+,Naomi listens to itself,issue-voice,open,https://github.com/NaomiProject/Naomi/issues/212
+,FR: Snowboy stt,issue-voice,open,https://github.com/NaomiProject/Naomi/issues/160
+,Friendlier initial configuration,issue-voice,open,https://github.com/NaomiProject/Naomi/issues/67
+,Cannot reproduce reported SDR & retrain the speaker embedding,issue-voice,open,https://github.com/mindslab-ai/voicefilter/issues/30
+,Can you get the initial mean SDR on LibriSpeech using Google's test list?,issue-voice,open,https://github.com/mindslab-ai/voicefilter/issues/20
+,关于语音转换Voice Conversion(PPG based)中的ppg2mel.yaml修改里面的地址指向预训练好的文件夹,issue-voice,open,https://github.com/babysor/MockingBird/issues/691
+,size mismatch for encoder.embedding.weight exception when using miven model and NO Chinse voice but only noise,issue-voice,open,https://github.com/babysor/MockingBird/issues/643
+,在gen_voice.py最后合成音频时报了这个错误，请问大家是什么情况？,issue-voice,open,https://github.com/babysor/MockingBird/issues/639
+,有无大佬看看这是啥问题,issue-voice,open,https://github.com/babysor/MockingBird/issues/537
+,語音轉換Voice Conversion(ppg2mel.yaml)修改地址問題,issue-voice,open,https://github.com/babysor/MockingBird/issues/530
+,The Question About 语音转换Voice Conversion(PPG based),issue-voice,open,https://github.com/babysor/MockingBird/issues/459
+,【长期】跨语言支持,issue-voice,open,https://github.com/babysor/MockingBird/issues/440
+,【长期】如何改模型，搞出更好效果,issue-voice,open,https://github.com/babysor/MockingBird/issues/436
+,一个数据集生成器,issue-voice,open,https://github.com/babysor/MockingBird/issues/427
+,新的ppg模式相关问题,issue-voice,open,https://github.com/babysor/MockingBird/issues/423
+,这个只是学习音色？能学习说话风格语气么？,issue-voice,open,https://github.com/babysor/MockingBird/issues/388
+,如果想让合成的声音尽可能的像target音频，请问我该如何做？,issue-voice,open,https://github.com/babysor/MockingBird/issues/382
+,我的mac m1所有都用的arm包运行起来闪退,issue-voice,open,https://github.com/babysor/MockingBird/issues/328
+,运行demo_toolbox后不能部分功能用不了报错,issue-voice,open,https://github.com/babysor/MockingBird/issues/314
+,【初尝试】使用Tacotron2替换Tacotron模型！！,issue-voice,open,https://github.com/babysor/MockingBird/issues/244
+,is the hifigan vocoder is working with the tool box that you have provided?,issue-voice,open,https://github.com/babysor/MockingBird/issues/230
+,保姆级别教程（持续更新各类社区/非官方教程----,issue-voice,open,https://github.com/babysor/MockingBird/issues/20
+,想要支持更多数据集？在这里提建议,issue-voice,open,https://github.com/babysor/MockingBird/issues/10
+,Male Voice/Mode named Oscar while Female is name Olivia,issue-voice,open,https://github.com/olivia-ai/olivia/issues/166
+,Learn on the fly,issue-voice,open,https://github.com/olivia-ai/olivia/issues/136
+,wake word loop weirdness,issue-voice,open,https://github.com/OpenVoiceOS/OpenVoiceOS/issues/82
+,Implement webbased backend,issue-voice,open,https://github.com/OpenVoiceOS/OpenVoiceOS/issues/20
+,Suggestion/Buildroot: Addition of a mic array kernel drivers,issue-voice,open,https://github.com/OpenVoiceOS/OpenVoiceOS/issues/5
+,Rasa 1.0 Forms stopped working in Rasa 2.8.x without change in code or version upgrade.,issue-voice,open,https://github.com/RasaHQ/rasa/issues/10457
+,Voice message,issue-voice,open,https://github.com/RasaHQ/rasa/issues/9952
+,Inconsistent GPU model results,issue-voice,open,https://github.com/RasaHQ/rasa/issues/9737
+,How to use light control with GPIO and voice,issue-voice,open,https://github.com/evancohen/smart-mirror/issues/691
+,Text-To-Speech,issue-voice,open,https://github.com/evancohen/smart-mirror/issues/386
+,Rhasspy (2.4) 'no' word recognition problems especially with female voices,issue-voice,open,https://github.com/synesthesiam/rhasspy/issues/242
+,Clarification on intent handling / Remote Server needed,issue-voice,open,https://github.com/synesthesiam/rhasspy/issues/217
+,"[Feature] Mute while listening, if Pi is music player system",issue-voice,open,https://github.com/synesthesiam/rhasspy/issues/214
+,wavenet tts not working,issue-voice,open,https://github.com/synesthesiam/rhasspy/issues/211
+,Missing catching/handling for remote rhaspy STT errors,issue-voice,open,https://github.com/synesthesiam/rhasspy/issues/209
+,"recognition with wake worse than ""hold to record""",issue-voice,open,https://github.com/synesthesiam/rhasspy/issues/199
+,[Feature] Detect person,issue-voice,open,https://github.com/synesthesiam/rhasspy/issues/193
+,KaldiDecoder Missing HCLG.fst Graph not found at .../graph/HCLG.fst.,issue-voice,open,https://github.com/synesthesiam/rhasspy/issues/181
+,Deploy error at second stage,issue-voice,open,https://github.com/IBM/watson-voice-bot/issues/80
+,ValueError: authenticator must be provided,issue-voice,open,https://github.com/IBM/watson-voice-bot/issues/78
+,Waiting for app to start... FAILED Start unsuccessful,issue-voice,open,https://github.com/IBM/watson-voice-bot/issues/77
+,We want to implement Speech-to-Text and Text-to-Speech functionality over IBM Watson Assistant.,issue-voice,open,https://github.com/IBM/watson-voice-bot/issues/76
+,Deploy 1Failed,issue-voice,open,https://github.com/IBM/watson-voice-bot/issues/72
+,There is still a problem with the credentials. There is a known problem with the assistant and speech-to-text creds role. There is a workaround.,issue-voice,open,https://github.com/IBM/watson-voice-bot/issues/64
+,Speech-to-text Listening issue,issue-voice,open,https://github.com/IBM/watson-voice-bot/issues/62
+,[WhatsApp] Support new event INCOMMING_CALL when the bot receive voice or video call.,issue-voice,open,https://github.com/wechaty/wechaty/issues/2343
+,no MIME Type found on mediaMessage: voice.slk or no MIME Type found on mediaMessage: voice.silk,issue-voice,open,https://github.com/wechaty/wechaty/issues/2186
+,Trying to connect with dashbot.io,issue-voice,open,https://github.com/wechaty/wechaty/issues/371
+,Task Instance pop-up menu - some buttons not always clickable,issue-mouse,closed,https://github.com/apache/airflow/issues/23733
+,Bottom scrollbar not working in the DAGs page.,issue-mouse,closed,https://github.com/apache/airflow/issues/22036
+,"Weird ""move"" effect in the new grid view",issue-mouse,closed,https://github.com/apache/airflow/issues/21428
+,breeze should load local tmux configuration in 'breeze start-airflow',issue-mouse,closed,https://github.com/apache/airflow/issues/15416
+,Misleading dag pause info tooltip,issue-mouse,closed,https://github.com/apache/airflow/issues/13624
+,"Blank screen, nothing visible until ALT+F4",issue-mouse,closed,https://github.com/microsoft/AirSim/issues/4281
+,python drone control with keyboard+mouse/xbox controller,issue-mouse,closed,https://github.com/microsoft/AirSim/issues/2660
+,[solved] Xbox controller-based steering of the PIPs while in FPV,issue-mouse,closed,https://github.com/microsoft/AirSim/issues/219
+,Quadcopter Not Taking Off in Airsim Simulation,issue-mouse,closed,https://github.com/microsoft/AirSim/issues/138
+,"Build error, win 10 vs2015 update 3 community.",issue-mouse,closed,https://github.com/microsoft/AirSim/issues/116
+,Unreal Editor crashes when hit play (Windows),issue-mouse,closed,https://github.com/microsoft/AirSim/issues/111
+,Is it possible to use AirSim without external hardware?,issue-mouse,closed,https://github.com/microsoft/AirSim/issues/28
+,Training coreference resolver using custom data,issue-mouse,closed,https://github.com/allenai/allennlp/issues/5462
+,[Question] Adding a span representation to all tokens in the span,issue-mouse,closed,https://github.com/allenai/allennlp/issues/1782
+,[Question]: suggestion for See et al. copy mechanism implementation,issue-mouse,closed,https://github.com/allenai/allennlp/issues/1727
+,Highlighting is broken in the constituency parser demo,issue-mouse,closed,https://github.com/allenai/allennlp/issues/1300
+,[BUG]: Intent phrase/words duplicated when adding second slot,issue-mouse,closed,https://github.com/botpress/botpress/issues/5685
+,[FEATURE] Node content & transitions,issue-mouse,closed,https://github.com/botpress/botpress/issues/4469
+,Flow view get smaller when duplicated,issue-mouse,closed,https://github.com/botpress/botpress/issues/3334
+,Add custom key values in the window.botpressWebChat.init method,issue-mouse,closed,https://github.com/botpress/botpress/issues/2579
+,"12.1.1 Unable to click icons/buttons in lower right of Studio (Emulator, Notifications, etc.)",issue-mouse,closed,https://github.com/botpress/botpress/issues/2280
+,Loading xodr file gives strange output,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/4666
+,Using mouse to control camera perspective in manual_control.py client,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/3616
+,Too much mouse sensibility,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/3578
+,v0.9.9 on Ubuntu 18.04. Segmentation fault. Malloc error. Signal 11.,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/3080
+,Problem with starting the simulation in UnrealEngine after completing Windows build,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/2879
+,Could we use mouse to interact with carla?,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/2763
+,Zoom in and out problem,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/2525
+,"Carla 9 with Ubuntu 19.04 on Dell laptop - computer freezes, and must reboot",issue-mouse,closed,https://github.com/carla-simulator/carla/issues/2186
+,Mouse control during CARLA sim,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/1844
+,How can I get recorder collisions images/videos,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/1630
+,PyGame bad performance,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/1533
+,Vehicle creation on a particular lane on particular position,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/1487
+,how to add the full map?,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/1390
+,[0.9.3][PythonAPI] no_rendering_mode.py: TypeError: unsupported operand type(s) for *: 'float' and 'Vector3D',issue-mouse,closed,https://github.com/carla-simulator/carla/issues/1319
+,why there are no any sensors which are attached to the vehicle rendered out in the game scene?,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/1296
+,Carla 0.91 how to move my viewpoint in the map along with my player vehicle??,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/1006
+,Error using CARLA from VNC,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/312
+,Creating training data and grabbing steering angles,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/46
+,Question about the depth image format,issue-mouse,closed,https://github.com/carla-simulator/carla/issues/26
+,QASC: incomplete training set,issue-mouse,closed,https://github.com/huggingface/datasets/issues/2708
+,Trained model on own images but still see other classes when plotting,issue-mouse,closed,https://github.com/dmlc/gluon-cv/issues/1156
+,yolov3 evaluation get zero mAP on COCO_val2017,issue-mouse,closed,https://github.com/dmlc/gluon-cv/issues/598
+,[FR] Add confidence thresholds to tooltips of PR/ROC curves,issue-mouse,closed,https://github.com/voxel51/fiftyone/issues/1196
+,[FR] Clicking on already opened graph tab should collapse it,issue-mouse,closed,https://github.com/voxel51/fiftyone/issues/980
+,[FR] Add support for selecting objects using *only* their IDs,issue-mouse,closed,https://github.com/voxel51/fiftyone/issues/891
+,Add support for zooming and panning in expanded sample view,issue-mouse,closed,https://github.com/voxel51/fiftyone/issues/390
+,"Error: Request failed with status code 500. ""500 Server Error: Internal Server Error for url: http://nuclio:8070/api/function_invocations"".",issue-mouse,closed,https://github.com/opencv/cvat/issues/4785
+,"Draw new label/tag by shortcut after annotate a tag blocks ""Rectangle"" selection button in side-bar",issue-mouse,closed,https://github.com/opencv/cvat/issues/4503
+,Annotate bugs using the YOLOV5 model,issue-mouse,closed,https://github.com/opencv/cvat/issues/4341
+,Error: Uncaught TypeError: this.el.node.getScreenCTM() is null in Firefox,issue-mouse,closed,https://github.com/opencv/cvat/issues/4173
+,"Click on the bouding box without releasing the mouse, press delete key, the annotation page will be stuck",issue-mouse,closed,https://github.com/opencv/cvat/issues/3652
+,Triggered block when changing the restrictive threshold intelligent scissors,issue-mouse,closed,https://github.com/opencv/cvat/issues/3582
+,Improve UX for IOG serverless function (start with a bounding box),issue-mouse,closed,https://github.com/opencv/cvat/issues/3361
+,Duplicating polygon at the same place,issue-mouse,closed,https://github.com/opencv/cvat/issues/2991
+,Update documentation about review mode,issue-mouse,closed,https://github.com/opencv/cvat/issues/2899
+,AI TOOL : Detection error occured,issue-mouse,closed,https://github.com/opencv/cvat/issues/2820
+,Issues with polyline editing,issue-mouse,closed,https://github.com/opencv/cvat/issues/2807
+,Can you tell me how to add new DL by my self,issue-mouse,closed,https://github.com/opencv/cvat/issues/2776
+,Autohide for popup should be changed,issue-mouse,closed,https://github.com/opencv/cvat/issues/2713
+,"Problem ""split"" function doesn't work with polygons/boundingboxes",issue-mouse,closed,https://github.com/opencv/cvat/issues/2692
+,Unable to move (drag with the mouse) track when it's a polygon,issue-mouse,closed,https://github.com/opencv/cvat/issues/2650
+,Deployment model problem,issue-mouse,closed,https://github.com/opencv/cvat/issues/2587
+,Polyon point becomes significantly bigger when selected and released unlike previous versions hindering accurate annotation,issue-mouse,closed,https://github.com/opencv/cvat/issues/2329
+,Add shortcuts for changing the current label,issue-mouse,closed,https://github.com/opencv/cvat/issues/2317
+,nuctl deploy error,issue-mouse,closed,https://github.com/opencv/cvat/issues/2176
+,Could not get models from the server - Error: Request failed with status code 500.,issue-mouse,closed,https://github.com/opencv/cvat/issues/2127
+,Issue loading openvino models for semi-automatic and automatic annotation,issue-mouse,closed,https://github.com/opencv/cvat/issues/1977
+,Problem moving polygon points - unexpected behaviors,issue-mouse,closed,https://github.com/opencv/cvat/issues/1886
+,Tooltip should be hidden after mouse is out of an element,issue-mouse,closed,https://github.com/opencv/cvat/issues/1825
+,Feature Request: An Appearance option to show all text labels on an image,issue-mouse,closed,https://github.com/opencv/cvat/issues/1585
+,Error after removing a tag,issue-mouse,closed,https://github.com/opencv/cvat/issues/1540
+,"Doorhanger display issue when doing a ""Search"" command",issue-mouse,closed,https://github.com/mozilla-extensions/firefox-voice/issues/1505
+,"Changes needed for the ""Routines"" page",issue-mouse,closed,https://github.com/mozilla-extensions/firefox-voice/issues/1329
+,"""Copy image"" command not copying pictures in Google Docs or other related tabs",issue-mouse,closed,https://github.com/mozilla-extensions/firefox-voice/issues/1327
+,"Add voice command ""Open NAME extension""",issue-mouse,closed,https://github.com/mozilla-extensions/firefox-voice/issues/976
+,"""Submit"" negative feedback button not responsive on hover state",issue-mouse,closed,https://github.com/mozilla-extensions/firefox-voice/issues/704
+,Feedback emoticons don't change color or size on mouse hover,issue-mouse,closed,https://github.com/mozilla-extensions/firefox-voice/issues/689
+,"""Settings"" button and ""Feedback?"" link not working when ""Doorhanger"" is opened",issue-mouse,closed,https://github.com/mozilla-extensions/firefox-voice/issues/678
+,Enable Google sidebar cards,issue-mouse,closed,https://github.com/mozilla-extensions/firefox-voice/issues/514
+,"Firefox Voice ""gear icon"" moves to three different positions, making it hard to click",issue-mouse,closed,https://github.com/mozilla-extensions/firefox-voice/issues/486
+,detectCustomObjectsFromVideo() got multiple values for argument 'custom_objects',issue-mouse,closed,https://github.com/OlafenwaMoses/ImageAI/issues/527
+,ValueError: An error occured. It may be that your input video is invalid.,issue-mouse,closed,https://github.com/OlafenwaMoses/ImageAI/issues/391
+,LED_STRIP not working for OMNIBUS F7 V2,issue-mouse,closed,https://github.com/iNavFlight/inav/issues/2920
+,Optical flow support,issue-mouse,closed,https://github.com/iNavFlight/inav/issues/216
+,Load_weights problem. NotFoundError: Key optimizer/iter/.ATTRIBUTES/VARIABLE_VALUE not found in checkpoint [Op:RestoreV2],issue-mouse,closed,https://github.com/keras-team/keras/issues/14401
+,Receiving AttributeError: 'Tensor' object has no attribute 'numpy' in keras backend.,issue-mouse,closed,https://github.com/keras-team/keras/issues/12969
+,VGG-16 Pretrained model did not increase the accuracy,issue-mouse,closed,https://github.com/keras-team/keras/issues/12042
+,"InvalidArgumentError (see above for traceback): **indices[6,4]** = 23624 is not in [0, 23624)",issue-mouse,closed,https://github.com/keras-team/keras/issues/11819
+,"TF: NaN Loss with CNN+RNN Model (multiple inputs, single output)",issue-mouse,closed,https://github.com/keras-team/keras/issues/11481
+,how can I read labels in words from cifar10 datasets?,issue-mouse,closed,https://github.com/keras-team/keras/issues/2653
+,Crosshair movement is amplified when zoomed in,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/1797
+,A bug related to audio labeling,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/1358
+,"In semantic segmentation, region/label highlight is shown in the wrong place when zooming in",issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/1263
+,Disappearing brush stoke on semantic segmentation annotations,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/1241
+,Slide the mouse over the picture and zoom in and out of the picture,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/1096
+,Can not draw rectangle on top of another (CTRL+Mouse-Dragging stopped working),issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/959
+,Error while bulding from source,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/862
+,Audio playing pointer doesn't move to the position of mouse,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/825
+,Two click bounding box annotation option,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/757
+,Hotkey to remove / add points in roi poly,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/424
+,Hotkey for toggling visibilty of bounding boxes,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/423
+,Different Mouse Pointer on ROI Polygon,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/409
+,A bug in audio related task,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/306
+,Copy text not possible for document classification task,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/265
+,Configurable behaviour of dragging (moving) a polygon (like pressing CTRL key while dragging moves bounding shapes),issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/105
+,New annotation type guide,issue-mouse,closed,https://github.com/heartexlabs/label-studio/issues/27
+,No reference link on nodes of DAG Dependencies,issue-mouse,open,https://github.com/apache/airflow/issues/25861
+,Mouse always looking down when moving,issue-mouse,open,https://github.com/carla-simulator/carla/issues/5362
+,Getting the world 3d coordinates from mouse click in pygame window in CARLA,issue-mouse,open,https://github.com/carla-simulator/carla/issues/5100
+,Too much mouse sensibility in server window,issue-mouse,open,https://github.com/carla-simulator/carla/issues/3579
+,[BUG] Upload | Couple of issues,issue-mouse,open,https://github.com/botpress/botpress/issues/5584
+,[FEATURE][BUG] Action auto-complete and nested scrolls,issue-mouse,open,https://github.com/botpress/botpress/issues/5108
+,[BUG] File view in code editor tab does not change when selecting file of same name (global / local),issue-mouse,open,https://github.com/botpress/botpress/issues/4742
+,[FEATURE] Flow Editor Zoom Scroll %,issue-mouse,open,https://github.com/botpress/botpress/issues/4464
+,Change sampling rate of the audio file to USV range,issue-mouse,open,https://github.com/facebookresearch/fairseq/issues/4405
+,Enhanced sample selection in dashboard,issue-mouse,open,https://github.com/voxel51/fiftyone/issues/113
+,Nuctl failed to deploy the model to cvat models,issue-mouse,open,https://github.com/opencv/cvat/issues/4642
+,Cannot call canvas2d.draw API to draw a rectangle on the canvas,issue-mouse,open,https://github.com/opencv/cvat/issues/4629
+,Segmentation and layer modes development,issue-mouse,open,https://github.com/opencv/cvat/issues/4184
+,Unable to use keyboard shortcuts after editing an attribute with the mouse,issue-mouse,open,https://github.com/opencv/cvat/issues/3941
+,Problems with 3D annotation in milestone #6,issue-mouse,open,https://github.com/opencv/cvat/issues/3438
+,Annotate rigid objects in 2D image with standard 3D cube,issue-mouse,open,https://github.com/opencv/cvat/issues/3387
+,Review mode suggestions,issue-mouse,open,https://github.com/opencv/cvat/issues/2550
+,Objective Detection using COCO classes: first label placed to the end of the list,issue-mouse,open,https://github.com/opencv/cvat/issues/2088
+,Keyboard shortcut to jump to next first frame of a track,issue-mouse,open,https://github.com/opencv/cvat/issues/2051
+,UI feature request: Right click to open sidebar object item for points,issue-mouse,open,https://github.com/opencv/cvat/issues/1979
+,Position control with scroll wheel,issue-mouse,open,https://github.com/opencv/cvat/issues/1215
+,Add ability to generate superpixels and label each superpixel,issue-mouse,open,https://github.com/opencv/cvat/issues/772
+,Keyboard shortcuts customization,issue-mouse,open,https://github.com/opencv/cvat/issues/747
+,Image grid view for classification tasks and interpolation,issue-mouse,open,https://github.com/opencv/cvat/issues/425
+,Discussion - companion board for INAV,issue-mouse,open,https://github.com/iNavFlight/inav/issues/1849
+,background lines disappeared when the data is big and scroll zooming to the end whole module crashed,issue-mouse,open,https://github.com/heartexlabs/label-studio/issues/1703
+,Play audio segments as soon as we move to next segment,issue-mouse,open,https://github.com/heartexlabs/label-studio/issues/1680
+,Copy/Duplicate Label,issue-mouse,open,https://github.com/heartexlabs/label-studio/issues/1549
+,Improve Time Series labelling navigation,issue-mouse,open,https://github.com/heartexlabs/label-studio/issues/1326
+,[image: text recognition] Add buttons/keyboard shortcuts for rotate rectangle/polygon by 45deg and fine tune it by 1deg,issue-mouse,open,https://github.com/heartexlabs/label-studio/issues/1215
+,Adding a new feature for reward sketching,issue-mouse,open,https://github.com/heartexlabs/label-studio/issues/814
+,[time series] hotkeys for slidings to right and left,issue-mouse,open,https://github.com/heartexlabs/label-studio/issues/812
+,Option to view text of relevant labels while adding relations,issue-mouse,open,https://github.com/heartexlabs/label-studio/issues/530
+,Efficiency upgrade feature proposal,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/915
+,Ubuntu - not possible to create rectangle - application crash,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/885
+,A small suggestion,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/862
+,open classes dialog box at mouse pointer location,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/699
+,feature suggestions,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/610
+,Zoom control for high res images,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/546
+,a box mouse operation suggestion,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/499
+,Bounding box move down (in the y axis) by one pixel when mouse is released to draw,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/458
+,I cannot key in labelImg from remote desk top,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/426
+,Panning / add pan functionality,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/335
+,Save annotation on file before opening different image,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/243
+,Dragging by mouse?,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/194
+,Let use the keyboard to fine-tune a bounding box,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/186
+,User interface quicker. Too many clicks per annotation.,issue-mouse,open,https://github.com/heartexlabs/labelImg/issues/56
+,Could not authorize you against Realms server: Invalid Session ID,issue-mouse,open,https://github.com/microsoft/malmo/issues/869
+,Mac only: Mission window glides across screen when moved,issue-mouse,open,https://github.com/microsoft/malmo/issues/590
+,Minecraft steals focus,issue-mouse,open,https://github.com/microsoft/malmo/issues/577
+,UX: Easier ability to remove faces,issue-mouse,open,https://github.com/photoprism/photoprism/issues/2401
+,UX: Provide TV-friendly User Interface,issue-mouse,open,https://github.com/photoprism/photoprism/issues/2103
+,People: Sort autocomplete list of people based on metadata (when assigning to face),issue-mouse,open,https://github.com/photoprism/photoprism/issues/1865
+,UX: Mouse click closes the photo viewer instead of zooming in / opening context menu,issue-mouse,open,https://github.com/photoprism/photoprism/issues/1633
+,"UX: Back button in ""Folders""",issue-mouse,open,https://github.com/photoprism/photoprism/issues/1409
+,UX: Build new photo viewer,issue-mouse,open,https://github.com/photoprism/photoprism/issues/1307
+,Videos: Customize preview thumbnail generation,issue-mouse,open,https://github.com/photoprism/photoprism/issues/1241
+,Places: cluster view,issue-mouse,open,https://github.com/photoprism/photoprism/issues/1187
+,UX: Timeline View,issue-mouse,open,https://github.com/photoprism/photoprism/issues/152
+,Update to the latest version of webvr-polyfill,issue-mouse,open,https://github.com/googlearchive/vrview/issues/317
+,Latest chrome updates broke vrview on mobile,issue-mouse,open,https://github.com/googlearchive/vrview/issues/306
+,Panning broken on browsers supporting the new WebVR API,issue-mouse,open,https://github.com/googlearchive/vrview/issues/289
+,Click-and-drag doesn't work on non-touchscreen device,issue-mouse,open,https://github.com/googlearchive/vrview/issues/288
+,[Android] Accelerometer tracking broken on latest Chrome update,issue-mouse,open,https://github.com/googlearchive/vrview/issues/274
+,mouse coords data on focus/blur events?,issue-mouse,open,https://github.com/googlearchive/vrview/issues/255
+,Best way to get yaw/pitch at mouse pointer?,issue-mouse,open,https://github.com/googlearchive/vrview/issues/230
+,Method getPosition() to return click position and not WorldRenderer position,issue-mouse,open,https://github.com/googlearchive/vrview/issues/203
+,VR view is broken in the latest release version of Microsoft Edge,issue-mouse,open,https://github.com/googlearchive/vrview/issues/192
+,Hijacking arrows keys and dragging,issue-mouse,open,https://github.com/googlearchive/vrview/issues/150
+,Touchscreen not working in Windows Chrome,issue-mouse,open,https://github.com/googlearchive/vrview/issues/78
+,Webcam shows 'device error' when opening after closing once.,issue-mouse,open,https://github.com/sarxos/webcam-capture/issues/704
+Zuqiang Yu,[Question] access DroidCam,issue-mouse,open,https://github.com/sarxos/webcam-capture/issues/601
+,,,,
+,,,,
+,"aimybox-android-assistant
+Link: https://github.com/just-ai/aimybox-android-assistant
+",,,
+,Name,Type,status,url
+,,Issue,closed,https://github.com/just-ai/aimybox-android-assistant/issues/64
+,andriod decive confifuration issue,Issue,closed,https://github.com/just-ai/aimybox-android-assistant/issues/58
+,andriod decive confifuration issue,Issue,closed,https://github.com/just-ai/aimybox-android-assistant/issues/53
+,andriod decive confifuration issue,Issue,closed,https://github.com/just-ai/aimybox-android-assistant/issues/52
+,about the Usability issue,Issue,closed,https://github.com/just-ai/aimybox-android-assistant/issues/42
+,,Issue,closed,https://github.com/just-ai/aimybox-android-assistant/issues/14
+,this issue talk about the local UI impelmentation for specific device,Issue,closed,https://github.com/just-ai/aimybox-android-assistant/issues/48
+,not sure if this count as usability issue,Issue,closed,https://github.com/just-ai/aimybox-android-assistant/issues/9
+,codingg dependency issue,Issue,closed,https://github.com/just-ai/aimybox-android-assistant/issues/64
+,,,,
+,,,,
+,maybe the location bind issue?,Issue,open,https://github.com/just-ai/aimybox-android-assistant/issues/70
+,memory over used,Issue,open,https://github.com/just-ai/aimybox-android-assistant/issues/65
+,,Issue,open,https://github.com/just-ai/aimybox-android-assistant/issues/63
+,,Issue,open,https://github.com/just-ai/aimybox-android-assistant/issues/61
+,custom UI issue,Issue,open,https://github.com/just-ai/aimybox-android-assistant/issues/59
+,,Issue,open,https://github.com/just-ai/aimybox-android-assistant/issues/55
+,lanugagge support issue,Issue,open,https://github.com/just-ai/aimybox-android-assistant/issues/54
+,lanugagge support issue,Issue,open,https://github.com/just-ai/aimybox-android-assistant/issues/47
+,,Issue,open,https://github.com/just-ai/aimybox-android-assistant/issues/46
+,,Issue,open,https://github.com/just-ai/aimybox-android-assistant/issues/37
+,user defined component (custom widggets),Issue,open,https://github.com/just-ai/aimybox-android-assistant/issues/36
+,,,,
+,,,,
+,"allennlp
+Link:https://github.com/allenai/allennlp
+",,,
+,Name,Type,status,url
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5700
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5637
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5620
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5614
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5597
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5576
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5558
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5521
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5478
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5491
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5355
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5358
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5258
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5155
+,,Issue,closed,https://github.com/allenai/allennlp/issues/5228
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4823
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4856
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4877
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4541
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4528
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4513
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4486
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4422
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4362
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4351
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4405
+,,Issue,closed,https://github.com/allenai/allennlp/issues/4304
+,,,,
+,,,,
+,,Issue,open,https://github.com/allenai/allennlp/issues/5488
+,,Issue,open,https://github.com/allenai/allennlp/issues/5450
+,,Issue,open,https://github.com/allenai/allennlp/issues/5409
+,,Issue,open,https://github.com/allenai/allennlp/issues/5237
+,,Issue,open,https://github.com/allenai/allennlp/issues/4397
+,,Issue,open,https://github.com/allenai/allennlp/issues/4295
+,,Issue,open,https://github.com/allenai/allennlp/issues/4524

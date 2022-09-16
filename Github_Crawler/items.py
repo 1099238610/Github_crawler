@@ -8,10 +8,11 @@ import scrapy
 
 class GithubCrawlerItem(scrapy.Item):
     # define the fields for your item here like:
-    user_name = scrapy.Field()
-    type = scrapy.Field()
-    body = scrapy.Field()
-    url = scrapy.Field()
-    datetime = scrapy.Field()
-    related_issue = scrapy.Field()
-    related_issue_link = scrapy.Field()
+    issue_list = scrapy.Field()
+    # user_name = scrapy.Field()
+    # type = scrapy.Field()
+    # body = scrapy.Field()
+    # url = scrapy.Field()
+    # datetime = scrapy.Field()
+    # related_issue = scrapy.Field()
+    # related_issue_link = scrapy.Field()

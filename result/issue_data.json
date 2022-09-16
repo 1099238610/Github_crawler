@@ -1,63 +1,739 @@
-"issue_list": 
 [
 {
-  "user_name": "pooja-botpress",
-  "datetime": "Sep 8, 2021",
-  "body": "When a new Botpress instance is spun up, the first Super Admin Login should always be local",
-  "type": "commented",
-  "related_issue": null
+    "issue_list": [
+        {
+            "user_name": "pooja-botpress",
+            "datetime": [
+                "Sep 8, 2021"
+            ],
+            "body": "When a new Botpress instance is spun up, the first Super Admin Login should always be local",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "laurentlp",
+            "datetime": [
+                "Sep 9, 2021"
+            ],
+            "body": "Hey,  Can you please provide a little more details on what you mean by \"the first Super Admin Login should always be \"?",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "charlescatta",
+            "datetime": [
+                "Oct 6, 2021"
+            ],
+            "body": "What I understand: When an SSO strategy is enabled and the default auth strategy is disabled on first boot, the registration screen to create the super admin does not appear.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "JustusNBB",
+            "datetime": [
+                "Oct 8, 2021"
+            ],
+            "body": "I would like the ability to disable the user/pass local strategy from the login page while keeping accessibility through APIs (CI User = Superadmin)",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "Michael-N-M",
+            "datetime": [
+                "Sep 9, 2021"
+            ],
+            "body": [],
+            "type": "added",
+            "related_issue": null
+        },
+        {
+            "user_name": "laurentlp",
+            "datetime": [
+                "\n      ",
+                "Oct 13, 2021",
+                "\n    "
+            ],
+            "body": [],
+            "type": "pull",
+            "related_issue": "#5564"
+        },
+        {
+            "user_name": "laurentlp",
+            "datetime": [
+                "completed",
+                "Oct 14, 2021"
+            ],
+            "body": [],
+            "type": "pull",
+            "related_issue": null
+        },
+        {
+            "user_name": "EFF",
+            "datetime": [
+                "\n      ",
+                "Oct 22, 2021",
+                "\n    "
+            ],
+            "body": [],
+            "type": "pull",
+            "related_issue": "#5595"
+        }
+    ]
 },
 {
-  "user_name": "laurentlp",
-  "datetime": "Sep 9, 2021",
-  "body": "Hey,  Can you please provide a little more details on what you mean by \"the first Super Admin Login should always be \"?",
-  "type": "commented",
-  "related_issue": null
+    "issue_list": [
+        {
+            "user_name": "bassamtantawi-botpress",
+            "datetime": [
+                "Feb 9, 2022"
+            ],
+            "body": "\nIf the utterances exceeded 100 the UI is broken\nSteps to reproduce the behavior:\nAdd more than 100 utterances\nIf applicable, add screenshots to help explain your problem.\n",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "bassamtantawi-botpress",
+            "datetime": [
+                "Feb 9, 2022"
+            ],
+            "body": [],
+            "type": "added  the",
+            "related_issue": null
+        }
+    ]
 },
 {
-  "user_name": "charlescatta",
-  "datetime": "Oct 6, 2021",
-  "body": "What I understand: When an SSO strategy is enabled and the default auth strategy is disabled on first boot, the registration screen to create the super admin does not appear.",
-  "type": "commented",
-  "related_issue": null
+    "issue_list": [
+        {
+            "user_name": "laurentlp",
+            "datetime": [
+                "Dec 18, 2020"
+            ],
+            "body": "\nRelated to \nWhen editing any content that contains pictures (image, card, carousel), replacing the current image does not delete the old one.\nSteps to reproduce the behavior:\nThe image should be deleted when it is replaced by another.The \"Cancel\" and \"Submit\" behavior make more sense compare to the one detailed in this issue \nNote that the old image is never deleted\nSee: \n is only  when the form is in  mode. This explains why the image is never deleted when editing!",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "laurentlp",
+            "datetime": [
+                "Dec 18, 2020"
+            ],
+            "body": [],
+            "type": "added  the",
+            "related_issue": null
+        },
+        {
+            "user_name": "laurentlp",
+            "datetime": [
+                "\n      ",
+                "Jan 5, 2021",
+                "\n    "
+            ],
+            "body": [],
+            "type": "pull",
+            "related_issue": "#4322"
+        },
+        {
+            "user_name": "Michael-N-M",
+            "datetime": [
+                "Jan 23, 2021"
+            ],
+            "body": [],
+            "type": "added  the",
+            "related_issue": null
+        },
+        {
+            "user_name": "Michael-N-M",
+            "datetime": [
+                "Feb 3, 2021"
+            ],
+            "body": [],
+            "type": "added",
+            "related_issue": null
+        }
+    ]
 },
 {
-  "user_name": "JustusNBB",
-  "datetime": "Oct 8, 2021",
-  "body": "I would like the ability to disable the user/pass local strategy from the login page while keeping accessibility through APIs (CI User = Superadmin)",
-  "type": "commented",
-  "related_issue": null
+    "issue_list": [
+        {
+            "user_name": "Michael-N-M",
+            "datetime": [
+                "Feb 10, 2021"
+            ],
+            "body": "PROBLEMI'm frustrated by having to always edit the style sheet to make the avatar picture react to the size of the window. This is an essential facet of any interface with still (and sometimes motion) graphics. As a solution:\nSOLUTIONALTERNATIVE\nIt's not really the best, add default responsive styling in   in the standard which you prescribe for clarity and lack of obscurity. If it cannot be prioritized for inclusion in studio/admin UI then at least an example using the Botpress code composition standard stuff.CONTEXT\nThe first prototype chatbot developers expose to their customers is the web page . Later, after the bot has been linked to other channels the customer will come back and say \"May I please have access to the link you used to show us during meetings\"",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "Michael-N-M",
+            "datetime": [
+                "Feb 10, 2021"
+            ],
+            "body": [],
+            "type": "changed the title",
+            "related_issue": null
+        },
+        {
+            "user_name": "Michael-N-M",
+            "datetime": [
+                "Feb 11, 2021"
+            ],
+            "body": [],
+            "type": "added",
+            "related_issue": null
+        },
+        {
+            "user_name": "Michael-N-M",
+            "datetime": [
+                "Feb 23, 2021"
+            ],
+            "body": [],
+            "type": "changed the title",
+            "related_issue": null
+        },
+        {
+            "user_name": "Michael-N-M",
+            "datetime": [
+                "Feb 23, 2021"
+            ],
+            "body": [],
+            "type": "added",
+            "related_issue": null
+        }
+    ]
 },
 {
-  "user_name": "Michael-N-M",
-  "datetime": "Sep 9, 2021",
-  "body": [],
-  "type": "added",
-  "related_issue": null,
-  "related_issue_link": "https://github.com//botpress/botpress/labels/feature-request"
+    "issue_list": [
+        {
+            "user_name": "BPMJoannette",
+            "datetime": [
+                "May 12, 2020"
+            ],
+            "body": "In the context of whitelabeling, some customers want to replace the UI Botpress brand references with their own. This is mostly achievable, except for the page title and favicon, which cannot be altered permanently.Expected behaviour:\nAdd the option to replace the page title and favicon in the whitelabeling context.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "allardy",
+            "datetime": [
+                "May 12, 2020"
+            ],
+            "body": "",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "MaxCloutier",
+            "datetime": [
+                "Oct 22, 2020"
+            ],
+            "body": " can this be closed?",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "allardy",
+            "datetime": [
+                "Oct 28, 2020"
+            ],
+            "body": "Fixed a long time ago",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "BPMJoannette",
+            "datetime": [
+                "May 12, 2020"
+            ],
+            "body": [],
+            "type": "added  the",
+            "related_issue": null
+        },
+        {
+            "user_name": "BPMJoannette",
+            "datetime": [
+                "May 12, 2020"
+            ],
+            "body": [],
+            "type": "assigned",
+            "related_issue": null
+        },
+        {
+            "user_name": "MaxCloutier",
+            "datetime": [
+                "May 12, 2020"
+            ],
+            "body": [],
+            "type": "removed their assignment",
+            "related_issue": null
+        },
+        {
+            "user_name": "slvnperron",
+            "datetime": [
+                "Oct 21, 2020"
+            ],
+            "body": [],
+            "type": "unassigned",
+            "related_issue": null
+        },
+        {
+            "user_name": "allardy",
+            "datetime": [
+                "completed",
+                "Oct 28, 2020"
+            ],
+            "body": [],
+            "type": "closed this as",
+            "related_issue": null
+        }
+    ]
 },
 {
-  "user_name": "laurentlp",
-  "datetime": "Oct 13, 2021",
-  "body": [],
-  "type": "pull",
-  "related_issue": "#5564",
-  "related_issue_link": "https://github.com//botpress/botpress/pull/5564"
+    "issue_list": [
+        {
+            "user_name": "Sameer4real",
+            "datetime": [
+                "Dec 16, 2021"
+            ],
+            "body": "I took a screen shot and thought I report it",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "EFF",
+            "datetime": [
+                "Dec 18, 2021"
+            ],
+            "body": "Hi  ,How did you get there? Any steps to.reproduction ?\nWhat's your os and Bowser versions.Thank you",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "laurentlp",
+            "datetime": [
+                "Dec 22, 2021"
+            ],
+            "body": ", could you please also tell us what OS you are using?",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "Sameer4real",
+            "datetime": [
+                "Dec 23, 2021"
+            ],
+            "body": "Yes,  \nI was just writing some random text in the text area trying to test the responses of the bot and the screen started glitching,\nI restarted the server, everything was fine but again the same thing appeared when I clicked on a node\nI experienced that same error a couple of times actually.I'm using Linux, hope that was helpful.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "laurentlp",
+            "datetime": [
+                "Jan 10, 2022"
+            ],
+            "body": "Thanks  for the details, I have seen this issue happen on my machine too. On my end, it seemed to have been caused by some Xorg package I am using (or it might also be a bug with Chrome itself) and is most likely a \"Linux\" problem than something with the webapp. Usually, switching apps would remove the UI glitch.I will close this issue but feel free to re-open if the problem is persisting or if you can also replicate it on another operating system.Thanks again!",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "laurentlp",
+            "datetime": [
+                "Jan 11, 2022"
+            ],
+            "body": "For reference, here is an example of what it looks like when I see this glitch happen:\n(The image we see is my desktop background image)",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "Sameer4real",
+            "datetime": [
+                "Dec 16, 2021"
+            ],
+            "body": [],
+            "type": "added  the",
+            "related_issue": null
+        },
+        {
+            "user_name": "Sameer4real",
+            "datetime": [
+                "Dec 16, 2021"
+            ],
+            "body": [],
+            "type": "changed the title",
+            "related_issue": null
+        },
+        {
+            "user_name": "laurentlp",
+            "datetime": [
+                "completed",
+                "Jan 10, 2022"
+            ],
+            "body": [],
+            "type": "closed this as",
+            "related_issue": null
+        }
+    ]
 },
 {
-  "user_name": "laurentlp",
-  "datetime": "Oct 14, 2021",
-  "body": [],
-  "type": "pull",
-  "related_issue": null,
-  "related_issue_link": "https://github.com//botpress/botpress/pull/5564"
+    "issue_list": [
+        {
+            "user_name": "moeidsaleem",
+            "datetime": [
+                "Jul 29, 2019"
+            ],
+            "body": "\nNo, it actually an accessibility feature, a nice to have. This can be for someone who doesn't understand English that well or prefer to listen or only limited to listening - Accessibility feature. A audio button with every message to say that message loud in the user selected language.\nWe can use say.js for mac and festival for Linux, a simplest implementation of this and for converting text, a language server would be good start to provide content.\nWe can use azure cognitive or IBM Watson or any other cloud service available for achieving the following task.\nAs i am already, working on implementing this with say.js / festival and also Microsoft azure cloud support.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "EFF",
+            "datetime": [
+                "Aug 16, 2019"
+            ],
+            "body": "That's indeed pretty interesting. At the moment, we're focusing on improving NLU and flow editor. Indeed HITL modules needs some love and speech would be very nice but would require a decent amount of work to support multiple languages and to keep this available on-prem. Integrating with cloud providers would be a good start though.Please share your work and your progress.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "stale",
+            "datetime": [
+                "Feb 12, 2020"
+            ],
+            "body": "This issue has been automatically marked as stale because it has not had recent activity. It will be closed if no further activity occurs. Thank you for your contributions.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "moeidsaleem",
+            "datetime": [
+                "Jul 29, 2019"
+            ],
+            "body": [],
+            "type": "assigned",
+            "related_issue": null
+        },
+        {
+            "user_name": "stale",
+            "datetime": [
+                "Feb 12, 2020"
+            ],
+            "body": [],
+            "type": "",
+            "related_issue": null
+        },
+        {
+            "user_name": "stale",
+            "datetime": [
+                "completed",
+                "Mar 13, 2020"
+            ],
+            "body": [],
+            "type": "",
+            "related_issue": null
+        }
+    ]
 },
 {
-  "user_name": "EFF",
-  "datetime": "Oct 22, 2021",
-  "body": [],
-  "type": "pull",
-  "related_issue": "#5595",
-  "related_issue_link": "https://github.com//botpress/botpress/pull/5595"
-}]
+    "issue_list": [
+        {
+            "user_name": "cengizmurat",
+            "datetime": [
+                "Feb 20, 2020"
+            ],
+            "body": "Hello,\nI have a  in our team and he has some difficulties to use Botpress chatbot.\nHe works with two screen readers  and , and there are different issues for interacting with Botpress chatbot :Thank you very much,\nBest regards",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "EFF",
+            "datetime": [
+                "Feb 20, 2020"
+            ],
+            "body": " Thank you for sharing your feedback. While we were aware that Botpress' interface is not accessible, we had no idea where to start as you might imagine there's quite a lot to tackle. Thanks for sharing your thoughts, we'll take this into account and do our best to make the interface more accessible for blind people (starting with the webchat).However, if you are willing to contribute this would help a lot.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "patlachance",
+            "datetime": [
+                "Feb 21, 2020"
+            ],
+            "body": " /  :  is in my team, you can count on us to help you improving botpress accessibility by submitting PR. We may need your help to pinpoint appropriate sections to improve.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "SEPOL14",
+            "datetime": [
+                "Feb 21, 2020"
+            ],
+            "body": "Hello,I am the blind developer who use your chatbot.How would you like that we work together ?Do you wish that we send any accessible code examples to you, or do you first prefer to search the informations by yourself ?Best regards.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "asashour",
+            "datetime": [
+                "Feb 21, 2020"
+            ],
+            "body": ", , please don't hesitate to ask, also in  if you need further assistance I would suggest that we try to resolve the most important things first",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "SEPOL14",
+            "datetime": [
+                "Apr 29, 2020"
+            ],
+            "body": "Hello,I tested the chatbot again, and I have seen that the buttons were accessible with a screen reader :)However, in order to help even more a blind user it would be nice to have \"heading levels\" with tags within the frame, like this :For example, we could have :After typing a message and clicking on the send button, we could have :Moreover, a big struggle still remains and it is about reading new messages from the bot. A blind user has to navigate all the way from the first message of the conversation until the newest.\nPutting new messages in a non-visible HTML tag can do the job.I have not faced to images yet, but except for logos, please keep in mind that they should have a  attribute with a short description (provided within the Admin panel).\nIf no description has been provided, keep the attribute empty like this Best regards.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "SEPOL14",
+            "datetime": [
+                "Apr 29, 2020"
+            ],
+            "body": "Hello,I tested the chatbot again, and I have seen that the buttons were accessible with a screen reader :)However, in order to help even more a blind user it would be nice to have \"heading levels\" with tags within the frame, like this :For example, we could have :After typing a message and clicking on the send button, we could have :Moreover, a big struggle still remains and it is about reading new messages from the bot. A blind user has to navigate all the way from the first message of the conversation until the newest.\nPutting new messages in a non-visible HTML tag can do the job.I have not faced to images yet, but except for logos, please keep in mind that they should have a  attribute with a short description (provided within the Admin panel).\nIf no description has been provided, keep the attribute empty like this Best regards.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "stale",
+            "datetime": [
+                "Jun 18, 2021"
+            ],
+            "body": "This issue has been automatically marked as stale because it has not had recent activity. It will be closed if no further activity occurs. Thank you for your contributions.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "J-FMartin",
+            "datetime": [
+                "Aug 17, 2021"
+            ],
+            "body": "We will close this issue.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "cengizmurat",
+            "datetime": [
+                "Feb 20, 2020"
+            ],
+            "body": [],
+            "type": "assigned",
+            "related_issue": null
+        },
+        {
+            "user_name": "EFF",
+            "datetime": [
+                "Feb 20, 2020"
+            ],
+            "body": [],
+            "type": "added  the",
+            "related_issue": null
+        },
+        {
+            "user_name": "slvnperron",
+            "datetime": [
+                "Oct 22, 2020"
+            ],
+            "body": [],
+            "type": "unassigned",
+            "related_issue": null
+        },
+        {
+            "user_name": "allardy",
+            "datetime": [
+                "Oct 28, 2020"
+            ],
+            "body": [],
+            "type": "added  the",
+            "related_issue": null
+        },
+        {
+            "user_name": "stale",
+            "datetime": [
+                "Jun 18, 2021"
+            ],
+            "body": [],
+            "type": "",
+            "related_issue": null
+        },
+        {
+            "user_name": "J-FMartin",
+            "datetime": [
+                "completed",
+                "Aug 17, 2021"
+            ],
+            "body": [],
+            "type": "closed this as",
+            "related_issue": null
+        }
+    ]
+},
+{
+    "issue_list": [
+        {
+            "user_name": "epaminond",
+            "datetime": [
+                "Apr 23, 2020"
+            ],
+            "body": "\nImages are not displaying in node at flow editor\nSteps to reproduce the behavior:\nImage renders in node as it was before\n",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "stale",
+            "datetime": [
+                "Jun 22, 2021"
+            ],
+            "body": "This issue has been automatically marked as stale because it has not had recent activity. It will be closed if no further activity occurs. Thank you for your contributions.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "J-FMartin",
+            "datetime": [
+                "Sep 20, 2021"
+            ],
+            "body": "Hi - fixed, we will close this, please reopen if need be.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "epaminond",
+            "datetime": [
+                "Apr 23, 2020"
+            ],
+            "body": [],
+            "type": "added  the",
+            "related_issue": null
+        },
+        {
+            "user_name": "epaminond",
+            "datetime": [
+                "Apr 23, 2020"
+            ],
+            "body": [],
+            "type": "assigned",
+            "related_issue": null
+        },
+        {
+            "user_name": "epaminond",
+            "datetime": [
+                "Apr 25, 2020"
+            ],
+            "body": [],
+            "type": "changed the title",
+            "related_issue": null
+        },
+        {
+            "user_name": "slvnperron",
+            "datetime": [
+                "Oct 22, 2020"
+            ],
+            "body": [],
+            "type": "unassigned",
+            "related_issue": null
+        },
+        {
+            "user_name": "allardy",
+            "datetime": [
+                "Oct 28, 2020"
+            ],
+            "body": [],
+            "type": "added  the",
+            "related_issue": null
+        },
+        {
+            "user_name": "stale",
+            "datetime": [
+                "Jun 22, 2021"
+            ],
+            "body": [],
+            "type": "",
+            "related_issue": null
+        },
+        {
+            "user_name": "J-FMartin",
+            "datetime": [
+                "completed",
+                "Sep 20, 2021"
+            ],
+            "body": [],
+            "type": "closed this as",
+            "related_issue": null
+        }
+    ]
+},
+{
+    "issue_list": [
+        {
+            "user_name": "Jeremynano",
+            "datetime": [
+                "Feb 8, 2022"
+            ],
+            "body": "Can't scroll down in the Q&A ???\nSteps to reproduce the behavior:\nIf applicable, add screenshots to help explain your problem.",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "acclogin80",
+            "datetime": [
+                "Feb 9, 2022"
+            ],
+            "body": "Having the same issue...OS: Windows (11)\nBrowser & Version: Edge (98.0.1108.43) & Chrome (98.0.4758.82)\nBotpress Version: 12.26.9",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "acclogin80",
+            "datetime": [
+                "Feb 11, 2022"
+            ],
+            "body": "I see this is closed, but I don't see a resolution, am I missing something?",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "Jeremynano",
+            "datetime": [
+                "Feb 11, 2022"
+            ],
+            "body": "",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "acclogin80",
+            "datetime": [
+                "Feb 11, 2022"
+            ],
+            "body": "Okay, thank you!",
+            "type": "commented",
+            "related_issue": null
+        },
+        {
+            "user_name": "Jeremynano",
+            "datetime": [
+                "Feb 8, 2022"
+            ],
+            "body": [],
+            "type": "added  the",
+            "related_issue": null
+        },
+        {
+            "user_name": "Jeremynano",
+            "datetime": [
+                "completed",
+                "Feb 10, 2022"
+            ],
+            "body": [],
+            "type": "closed this as",
+            "related_issue": null
+        }
+    ]
 }
+]

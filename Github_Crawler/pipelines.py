@@ -20,14 +20,15 @@ class DatetimePipeline:
     处理爬取的日期格式
     """
     def process_item(self, item, spider):
-        if item.get("datetime"):
-            datetime = item.get("datetime")
-            # 如果日期不为空
-            if datetime is not None:
-                if len(datetime) > 1:
-                    item['datetime'] = datetime[1]
-                else:
-                    item['datetime'] = datetime[0]
+        for issue in item:
+            if item.get("datetime"):
+                datetime = item.get("datetime")
+                # 如果日期不为空
+                if datetime is not None:
+                    if len(datetime) > 1:
+                        item['datetime'] = datetime[1]
+                    else:
+                        item['datetime'] = datetime[0]
             return item
 
 
@@ -42,11 +43,12 @@ class JsonWriterPipeline(object):
 
     def open_spider(self, spider):
         """
-        打开文件， 预写入json格式符号
+        预写入json格式符号
         :param spider:
         :return:
         """
-        self.json_file.write('"issue_list": \n')
+        # self.json_file.write('{ \n')
+        # self.json_file.write('  "issue_list": \n')
         self.json_file.write('[\n')
 
     def process_item(self, item, spider):
@@ -56,10 +58,10 @@ class JsonWriterPipeline(object):
         :param spider:
         :return: 爬取数据对象
         """
+        print(item)
         # 为使得 Json 文件具有更高的易读性，辅助输出 '\n'（换行符）
-        item_json = json.dumps(dict(item), ensure_ascii=False, indent=2)
+        item_json = json.dumps(dict(item), ensure_ascii=False, indent=4)
         self.json_file.write(item_json + ',\n')
-        # print(item_json)
         return item
 
     def close_spider(self, spider):
@@ -73,8 +75,8 @@ class JsonWriterPipeline(object):
         self.json_file.truncate()
 
         # 重新输出'\n'，并输入']'，与 open_spider(self, spider) 时输出的 '['，构成一个完整的数组格式
-        self.json_file.write(']')
-        self.json_file.write('\n}')
+        self.json_file.write('\n]')
+        # self.json_file.write('\n}')
 
         # 关闭文件
         self.json_file.close()
