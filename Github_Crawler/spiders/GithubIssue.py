@@ -8,8 +8,8 @@ def write_html(response):
     add the current page into a HTML doc
     :param response: the url response
     """
-    with open("issue_timeline.html", 'w') as f:
-        f.write(response)
+    with open("issue_timeline.html", 'wb+') as f:
+        f.write(response.body)
 
 
 def cobine_words(word_list):
@@ -26,7 +26,7 @@ def read_source():
         for url in reader:
             if "https" in url[4]:
                 url_list.append(url[4])
-    return url_list[0:10]
+    return url_list[0:100]
 
 
 class IssueSpider(scrapy.Spider):
@@ -39,6 +39,12 @@ class IssueSpider(scrapy.Spider):
     def parse(self, response):
 
         scrapy_item = GithubCrawlerItem()
+
+        # 获取项目名称
+        scrapy_item['project_name'] = response.xpath('//*[@id="repository-container-header"]/div[1]/div/ '
+                                                     'div/strong/a/text()').get()
+        # 获取网页url
+        scrapy_item['project_url'] = response.url
 
         issue_list = []
 
@@ -88,13 +94,6 @@ class IssueSpider(scrapy.Spider):
             'related_issue': related_issue
         }
 
-        # scrapy_item['user_name'] = user_name
-        # scrapy_item['datetime'] = datetime
-        # scrapy_item['body'] = comment
-        # scrapy_item['type'] = item_type
-        # scrapy_item['related_issue'] = related_issue
-        # scrapy_item['related_issue_link'] = related_issue_link
-
         return timeline_data
 
     def add_timeline_item_data(self, item):
@@ -122,13 +121,6 @@ class IssueSpider(scrapy.Spider):
         related_issue_link = item.xpath('.//a//@href').getall()
 
         item_type, related_issue_link = self.parse_link_type(item_type, related_issue_link)
-
-        # scrapy_item['user_name'] = user_name
-        # scrapy_item['datetime'] = datetime
-        # scrapy_item['body'] = item_body
-        # scrapy_item['type'] = item_type
-        # scrapy_item['related_issue'] = related_issue
-        # scrapy_item['related_issue_link'] = related_issue_link
 
         timeline_data = {
             'user_name': user_name,
