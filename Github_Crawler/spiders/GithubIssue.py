@@ -30,6 +30,9 @@ def read_source():
 
 
 class IssueSpider(scrapy.Spider):
+    """
+    爬虫类，用来爬取所有的issue数据
+    """
     name = 'issue'
     allowed_domains = "https://github.com"
 
@@ -37,14 +40,15 @@ class IssueSpider(scrapy.Spider):
     start_urls = read_source()
 
     def parse(self, response):
-
+        """
+        获取网页元素并解析数据
+        :param response: 网页的响应数据
+        :return: 解析完成的数据对象
+        """
         scrapy_item = GithubCrawlerItem()
 
-        # 获取项目名称
-        scrapy_item['project_name'] = response.xpath('//*[@id="repository-container-header"]/div[1]/div/ '
-                                                     'div/strong/a/text()').get()
         # 获取网页url
-        scrapy_item['project_url'] = response.url
+        scrapy_item['issue_url'] = response.url
 
         issue_list = []
 
@@ -66,15 +70,16 @@ class IssueSpider(scrapy.Spider):
         """
         从timeline中获取一个comment形式的数据
         :param item: 当前timeline的单个comment对象
-        :return:
+        :return: 数据字典
         """
         # get comment body data
 
         # get the user name for issue timeline
-        user_name = item.xpath('.//a[@class="author Link--primary text-bold css-truncate-target "]/text()').get()
+        user_name = item.xpath('.//a[@class="author js-quote-author Link--primary text-bold css-truncate-target '
+                               '"]/text()').get()
 
         # get the data of the timeline item
-        datetime = item.xpath('.//a[@class="Link--secondary js-timestamp"]//text()').getall()
+        datetime = item.xpath('.//a[@class="Link--secondary js-timestamp js-quote-permalink"]//text()').getall()
 
         # get the comment of the timeline item
         comment = item.xpath(
@@ -100,7 +105,6 @@ class IssueSpider(scrapy.Spider):
         """
         从timeline中获取一个普通形式的数据
         :param item: 当前timeline的单个comment对象
-        :param scrapy_item: scrapy定义的item对象, 用于存储数据做处理
         :return:
         """
         # get the user name for issue timeline
@@ -133,6 +137,12 @@ class IssueSpider(scrapy.Spider):
         return timeline_data
 
     def parse_link_type(self, item_type, related_issue_link):
+        """
+        判断评论类型
+        :param item_type: issue的类型
+        :param related_issue_link: 评论相关的链接
+        :return:
+        """
         if related_issue_link is not None:
             if len(related_issue_link) > 3:
                 related_issue_link = "https://github.com/" + related_issue_link[3]
