@@ -1,6 +1,6 @@
 import csv
 import scrapy
-from Github_Crawler.items import GithubCrawlerItem
+from Github_Crawler.items import GithubCrawlerItem, ProjectItem
 
 
 def write_html(response):
@@ -26,7 +26,7 @@ def read_source():
         for url in reader:
             if "https" in url[4]:
                 url_list.append(url[4])
-    return url_list[0:100]
+    return url_list[0:10]
 
 
 class IssueSpider(scrapy.Spider):
@@ -45,10 +45,19 @@ class IssueSpider(scrapy.Spider):
         :param response: 网页的响应数据
         :return: 解析完成的数据对象
         """
-        scrapy_item = GithubCrawlerItem()
+        project_item = ProjectItem()
+
+        issue_item = {}
+
+        #
+        project_item['project_name'] = response.xpath('//strong[@class="mr-2 flex-self-stretch"]/a/text()').getall()
 
         # 获取网页url
-        scrapy_item['issue_url'] = response.url
+        issue_item['issue_url'] = response.url
+
+        # 获取网页状态
+        issue_item['issue_status'] = response.xpath('//div[@class="flex-shrink-0 mb-2 flex-self-start '
+                                                     'flex-md-self-center"]/span/text()').getall()[1]
 
         issue_list = []
 
@@ -63,8 +72,11 @@ class IssueSpider(scrapy.Spider):
             # add all timeline item data from github issue page
             issue_list.append(self.add_timeline_item_data(item))
 
-        scrapy_item['issue_list'] = issue_list
-        return scrapy_item
+        issue_item['issue_list'] = issue_list
+
+        project_item['issues'] = issue_item
+
+        return issue_item
 
     def add_comment_data(self, item):
         """

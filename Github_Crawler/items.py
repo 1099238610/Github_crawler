@@ -11,11 +11,9 @@ class GithubCrawlerItem(scrapy.Item):
     issue_list = scrapy.Field()
     issue_name = scrapy.Field()
     issue_url = scrapy.Field()
+    issue_status = scrapy.Field()
 
-    # user_name = scrapy.Field()
-    # type = scrapy.Field()
-    # body = scrapy.Field()
-    # url = scrapy.Field()
-    # datetime = scrapy.Field()
-    # related_issue = scrapy.Field()
-    # related_issue_link = scrapy.Field()
+
+class ProjectItem(scrapy.Item):
+    project_name = scrapy.Field()
+    issues = scrapy.Field()
